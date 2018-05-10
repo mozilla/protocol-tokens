@@ -10,13 +10,13 @@ const unitsFormats = [
   'scss'
 ];
 
-gulp.task('breakpoints', () =>
-  unitsFormats.map((format) =>
+gulp.task('breakpoints', () => {
+  unitsFormats.map((format) => {
     gulp.src('tokens/breakpoints.yml')
     .pipe(gulpTheo({
       transform: { includeMeta: true },
       format: { type: format }
     }))
     .pipe(gulp.dest('dist/breakpoints'))
-  ),
-);
+  });
+});

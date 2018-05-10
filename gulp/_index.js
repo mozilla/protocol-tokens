@@ -11,8 +11,8 @@ const indexFormats = [
   'scss'
 ];
 
-gulp.task('_index', () =>
-  indexFormats.map((format) =>
+gulp.task('_index', () => {
+  indexFormats.map((format) => {
     gulp.src('tokens/_index.yml')
     .pipe(gulpTheo({
       transform: { includeMeta: true },
@@ -22,5 +22,5 @@ gulp.task('_index', () =>
       path.basename = "index";
     }))
     .pipe(gulp.dest('dist/'))
-  ),
-);
+  });
+});

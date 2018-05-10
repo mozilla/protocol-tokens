@@ -11,13 +11,13 @@ const unitsFormats = [
   'scss'
 ];
 
-gulp.task('units', () =>
-  unitsFormats.map((format) =>
+gulp.task('units', () => {
+  unitsFormats.map((format) => {
     gulp.src('tokens/units.yml')
     .pipe(gulpTheo({
       transform: { includeMeta: true },
       format: { type: format }
     }))
     .pipe(gulp.dest('dist/units'))
-  ),
-);
+  });
+});

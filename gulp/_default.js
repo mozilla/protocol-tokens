@@ -18,7 +18,7 @@ theo.registerFormat('json', `[
 ]
 `)
 
-gulp.task('default', (done) =>
+gulp.task('default', (done) => {
   runSequence([
     '_index',
     'breakpoints',
@@ -27,4 +27,4 @@ gulp.task('default', (done) =>
     'font-stack',
     'units'
   ], done)
-)
+});

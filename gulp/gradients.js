@@ -153,48 +153,48 @@ const gradientsFormats = [
   'json'
 ];
 
-gulp.task('gradients:raw', () =>
-  gradientsFormats.map((format) =>
+gulp.task('gradients:raw', () => {
+  gradientsFormats.map((format) => {
     gulp.src('tokens/gradients.yml')
     .pipe(gulpTheo({
       transform: { includeMeta: true },
       format: { type: format }
     }))
     .pipe(gulp.dest('dist/gradients'))
-  ),
-);
+  });
+});
 
-gulp.task('gradients:android', () =>
+gulp.task('gradients:android', () => {
   gulp.src('tokens/gradients.yml')
   .pipe(gulpTheo({
     transform: { includeMeta: true },
     format: { type: 'gradients.android.xml' }
   }))
-  .pipe(rename(function(opt) {
+  .pipe(rename(opt => {
     opt.basename = opt.basename.replace('gradients.', '');
     return opt;
   }))
   .pipe(gulp.dest('dist/gradients'))
-);
+});
 
-gulp.task('gradients:swift', () =>
+gulp.task('gradients:swift', () => {
   gulp.src('tokens/gradients.yml')
   .pipe(gulpTheo({
     transform: { includeMeta: true },
     format: { type: 'gradients.swift' }
   }))
-  .pipe(rename(function(opt) {
+  .pipe(rename(opt => {
     opt.basename = opt.basename.replace('gradients.', '');
     return opt;
   }))
   .pipe(gulp.dest('dist/gradients'))
-);
+});
 
 // All formats
-gulp.task('gradients', (done) =>
+gulp.task('gradients', (done) => {
   runSequence([
     'gradients:raw',
     'gradients:android',
     'gradients:swift'
   ], done)
-)
+});
