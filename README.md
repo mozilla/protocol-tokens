@@ -98,4 +98,4 @@ to learn how to propose changes and understand our development process.
 
 ### [License](https://github.com/mozilla/protocol-tokens/blob/master/LICENSE.md)
 
-The polaris-tokens project is available under the [MPL License](https://github.com/mozilla/protocol-tokens/blob/master/LICENSE.md).
+The protocol-tokens project is available under the [MPL License](https://github.com/mozilla/protocol-tokens/blob/master/LICENSE.md).
