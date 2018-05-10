@@ -2,8 +2,8 @@
   "name": "@mozilla-protocol/tokens",
   "version": "1.0.0",
   "description": "Design tokens for Protocol, Mozilla’s design system",
-  "main": "colors/protocol-colors.js",
-  "style": "protocol-colors.scss",
+  "main": "dist/index.js",
+  "style": "dist/index.scss",
   "scripts": {
     "lint-css": "./node_modules/.bin/stylelint '**/*.css' '**/*.scss'",
     "pre-test": "npm run lint-css"
