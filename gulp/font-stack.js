@@ -10,13 +10,13 @@ const unitsFormats = [
   'scss'
 ];
 
-gulp.task('font-stack', () =>
-  unitsFormats.map((format) =>
+gulp.task('font-stack', () => {
+  unitsFormats.map(format => {
     gulp.src('tokens/font-stack.yml')
     .pipe(gulpTheo({
       transform: { includeMeta: true },
       format: { type: format }
     }))
     .pipe(gulp.dest('dist/font-stack'))
-  ),
-);
+  });
+});

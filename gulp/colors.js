@@ -70,60 +70,60 @@ const colorsFormats = [
   'colors.soc'
 ];
 
-gulp.task('colors:raw', () =>
-  colorsFormats.map((format) =>
+gulp.task('colors:raw', () => {
+  colorsFormats.map((format) => {
     gulp.src('tokens/colors.yml')
     .pipe(gulpTheo({
       transform: { includeMeta: true },
       format: { type: format }
     }))
     .pipe(gulp.dest('dist/colors'))
-  ),
-);
+  });
+});
 
 // Formats with rgb() values
-gulp.task('colors:web', () =>
+gulp.task('colors:web', () => {
   gulp.src('tokens/colors.yml')
   .pipe(gulpTheo({
     transform: { type: 'web' },
     format: { type: 'gpl' }
   }))
   .pipe(gulp.dest('dist/colors'))
-);
+});
 
 // Formats with 8-digit hex values
-gulp.task('colors:android', () =>
+gulp.task('colors:android', () => {
   gulp.src('tokens/colors.yml')
   .pipe(gulpTheo({
     transform: { type: 'android' },
     format: { type: 'colors.android.xml' }
   }))
-  .pipe(rename(function(opt) {
+  .pipe(rename(opt=> {
     opt.basename = opt.basename.replace('colors.', '');
     return opt;
   }))
   .pipe(gulp.dest('dist/colors'))
-);
+});
 
 // Formats with 8-digit hex values
-gulp.task('colors:swift', () =>
+gulp.task('colors:swift', () => {
   gulp.src('tokens/colors.yml')
   .pipe(gulpTheo({
     format: { type: 'colors.swift' }
   }))
-  .pipe(rename(function(opt) {
+  .pipe(rename(opt => {
     opt.basename = opt.basename.replace('colors.', '');
     return opt;
   }))
   .pipe(gulp.dest('dist/colors'))
-);
+});
 
 // All formats
-gulp.task('colors', (done) =>
+gulp.task('colors', (done) => {
   runSequence([
     'colors:raw',
     'colors:web',
     'colors:android',
     'colors:swift'
   ], done)
-)
+});

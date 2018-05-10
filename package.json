@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/mozilla/protocol-design-tokens#readme",
   "devDependencies": {
+    "eslint": "^4.19.1",
     "gulp": "^3.9.1",
     "gulp-rename": "^1.2.2",
     "gulp-theo": "^2.0.0-beta.1",
