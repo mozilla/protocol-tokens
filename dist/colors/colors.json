@@ -1,0 +1,227 @@
+[
+  {
+    "name": "Black",
+    "value": "#000000",
+    "token": "$brand-primary",
+  },
+  {
+    "name": "White",
+    "value": "#ffffff",
+    "token": "$brand-secondary",
+  },
+  {
+    "name": "Neon Blue",
+    "value": "#00ffff",
+    "token": "$brand-neon-blue",
+  },
+  {
+    "name": "Lemon Yellow",
+    "value": "#fff44f",
+    "token": "$brand-lemon-yellow",
+  },
+  {
+    "name": "Warm Red",
+    "value": "#ff4f5e",
+    "token": "$brand-warm-red",
+  },
+  {
+    "name": "Neon Green",
+    "value": "#54ffbd",
+    "token": "$brand-neon-green",
+  },
+  {
+    "name": "Dark Purple",
+    "value": "#6e008b",
+    "token": "$brand-dark-purple",
+  },
+  {
+    "name": "Dark Green",
+    "value": "#005e5e",
+    "token": "$brand-dark-green",
+  },
+  {
+    "name": "Dark Blue",
+    "value": "#00458b",
+    "token": "$brand-dark-blue",
+  },
+  {
+    "name": "Black",
+    "value": "#000000",
+    "token": "$color-black",
+  },
+  {
+    "name": "White",
+    "value": "#ffffff",
+    "token": "$color-white",
+  },
+  {
+    "name": "Cyan 40",
+    "value": "#a2ffff",
+    "token": "$color-cyan-40",
+  },
+  {
+    "name": "Cyan 50",
+    "value": "#00ffff",
+    "token": "$color-cyan-50",
+  },
+  {
+    "name": "Cyan 60",
+    "value": "#00e5e5",
+    "token": "$color-cyan-60",
+  },
+  {
+    "name": "Yellow 40",
+    "value": "#fff9a3",
+    "token": "$color-yellow-40",
+  },
+  {
+    "name": "Yellow 50",
+    "value": "#fff44f",
+    "token": "$color-yellow-50",
+  },
+  {
+    "name": "Yellow 60",
+    "value": "#f7e800",
+    "token": "$color-yellow-60",
+  },
+  {
+    "name": "Red 40",
+    "value": "#fe7c87",
+    "token": "$color-red-40",
+  },
+  {
+    "name": "Red 50",
+    "value": "#ff4f5e",
+    "token": "$color-red-50",
+  },
+  {
+    "name": "Green 60",
+    "value": "#e53c4a",
+    "token": "$color-red-60",
+  },
+  {
+    "name": "Green 40",
+    "value": "#adffdf",
+    "token": "$color-green-40",
+  },
+  {
+    "name": "Green 50",
+    "value": "#54ffbd",
+    "token": "$color-green-50",
+  },
+  {
+    "name": "Green 60",
+    "value": "#2ce69e",
+    "token": "$color-green-60",
+  },
+  {
+    "name": "Teal 40",
+    "value": "#25bcbc",
+    "token": "$color-teal-40",
+  },
+  {
+    "name": "Teal 50",
+    "value": "#0f8f8f",
+    "token": "$color-teal-50",
+  },
+  {
+    "name": "Teal 60",
+    "value": "#005e5e",
+    "token": "$color-teal-60",
+  },
+  {
+    "name": "Purple 40",
+    "value": "#9f54b2",
+    "token": "$color-purple-40",
+  },
+  {
+    "name": "Purple 50",
+    "value": "#6e008b",
+    "token": "$color-purple-50",
+  },
+  {
+    "name": "Purple 60",
+    "value": "#4f0164",
+    "token": "$color-purple-60",
+  },
+  {
+    "name": "Blue 40",
+    "value": "#539ee9",
+    "token": "$color-blue-40",
+  },
+  {
+    "name": "Blue 50",
+    "value": "#2374c6",
+    "token": "$color-blue-50",
+  },
+  {
+    "name": "Blue 60",
+    "value": "#00458b",
+    "token": "$color-blue-60",
+  },
+  {
+    "name": "Gray 10",
+    "value": "#f9f9fa",
+    "token": "$color-gray-10",
+  },
+  {
+    "name": "Gray 20",
+    "value": "#ededf0",
+    "token": "$color-gray-20",
+  },
+  {
+    "name": "Gray 30",
+    "value": "#f5f5f5",
+    "token": "$color-gray-30",
+  },
+  {
+    "name": "Gray 40",
+    "value": "#e7e7e7",
+    "token": "$color-gray-40",
+  },
+  {
+    "name": "Gray 50",
+    "value": "#c8c8c8",
+    "token": "$color-gray-50",
+  },
+  {
+    "name": "Gray 60",
+    "value": "#959595",
+    "token": "$color-gray-60",
+  },
+  {
+    "name": "Gray 70",
+    "value": "#38383d",
+    "token": "$color-gray-70",
+  },
+  {
+    "name": "Gray 80",
+    "value": "#2a2a2e",
+    "token": "$color-gray-80",
+  },
+  {
+    "name": "Gray 90",
+    "value": "#959595",
+    "token": "$color-gray-90",
+  },
+  {
+    "name": "Link",
+    "value": "#0060df",
+    "token": "$color-link",
+  },
+  {
+    "name": "Link:Hover",
+    "value": "#003eaa",
+    "token": "$color-link-hover",
+  },
+  {
+    "name": "Link:Visited",
+    "value": "#8000d7",
+    "token": "$color-link-visited",
+  },
+  {
+    "name": "Link:Visited:Hover",
+    "value": "#6200a4",
+    "token": "$color-link-visited-hover",
+  }
+]

@@ -1,0 +1,12 @@
+global:
+  type: string
+  category: font-family
+imports:
+  - ./_aliases.yml
+props:
+  - name: font-stack-sans
+    value: '{!font-stack-sans}'
+  - name: font-stack-serif
+    value: '{!font-stack-serif}'
+  - name: font-stack-mono
+    value: '{!font-stack-mono}'

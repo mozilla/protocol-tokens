@@ -1,0 +1,39 @@
+{
+  "name": "@mozilla-protocol/tokens",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Design tokens for Protocol, Mozilla’s design system",
+  "main": "colors/protocol-colors.js",
+  "style": "protocol-colors.scss",
+  "scripts": {
+    "lint-css": "./node_modules/.bin/stylelint '**/*.css' '**/*.scss'",
+    "pre-test": "npm run lint-css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mozilla/protocol-design-tokens.git"
+  },
+  "keywords": [
+    "design",
+    "system",
+    "tokens",
+    "colors",
+    "variables"
+  ],
+  "author": "Mozilla",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/mozilla/protocol-design-tokens/issues"
+  },
+  "homepage": "https://github.com/mozilla/protocol-design-tokens#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-theo": "^2.0.0-beta.1",
+    "require-dir": "^1.0.0",
+    "run-sequence": "^2.2.1",
+    "stylelint": "^9.2.0",
+    "theo": "^7.0.1"
+  }
+}

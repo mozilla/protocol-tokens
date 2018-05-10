@@ -1,0 +1,32 @@
+
+:root {
+  --spacing-xs: "4px";
+  --spacing-sm: "8px";
+  --spacing-md: "16px";
+  --spacing-lg: "24px";
+  --spacing-xl: "32px";
+  --spacing-2xl: "48px";
+  --spacing-base: "16px";
+  --padding-xs: "4px";
+  --padding-sm: "8px";
+  --padding-md: "16px";
+  --padding-lg: "24px";
+  --padding-xl: "32px";
+  --padding-2xl: "48px";
+  --padding-base: "16px";
+  --margin-xs: "4px";
+  --margin-sm: "8px";
+  --margin-md: "16px";
+  --margin-lg: "24px";
+  --margin-xl: "32px";
+  --margin-2xl: "48px";
+  --margin-base: "16px";
+  --layout-2xs: "16px";
+  --layout-xs: "24px";
+  --layout-sm: "32px";
+  --layout-md: "48px";
+  --layout-lg: "24px";
+  --layout-xl: "32px";
+  --layout-2xl: "48px";
+  --layout-base: "48px";
+}
