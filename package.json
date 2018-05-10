@@ -1,7 +1,6 @@
 {
   "name": "@mozilla-protocol/tokens",
   "version": "1.0.0",
-  "private": true,
   "description": "Design tokens for Protocol, Mozilla’s design system",
   "main": "colors/protocol-colors.js",
   "style": "protocol-colors.scss",
