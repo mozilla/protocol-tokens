@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ooo:color-table
+  xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0"
+  xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:ooo="http://openoffice.org/2004/office">
+  
+  <draw:color draw:name="brand-primary" draw:color="#000000" />
+  
+  <draw:color draw:name="brand-secondary" draw:color="#ffffff" />
+  
+  <draw:color draw:name="brand-neon-blue" draw:color="#00ffff" />
+  
+  <draw:color draw:name="brand-lemon-yellow" draw:color="#fff44f" />
+  
+  <draw:color draw:name="brand-warm-red" draw:color="#ff4f5e" />
+  
+  <draw:color draw:name="brand-neon-green" draw:color="#54ffbd" />
+  
+  <draw:color draw:name="brand-dark-purple" draw:color="#6e008b" />
+  
+  <draw:color draw:name="brand-dark-green" draw:color="#005e5e" />
+  
+  <draw:color draw:name="brand-dark-blue" draw:color="#00458b" />
+  
+  <draw:color draw:name="color-black" draw:color="#000000" />
+  
+  <draw:color draw:name="color-white" draw:color="#ffffff" />
+  
+  <draw:color draw:name="color-cyan-40" draw:color="#a2ffff" />
+  
+  <draw:color draw:name="color-cyan-50" draw:color="#00ffff" />
+  
+  <draw:color draw:name="color-cyan-60" draw:color="#00e5e5" />
+  
+  <draw:color draw:name="color-yellow-40" draw:color="#fff9a3" />
+  
+  <draw:color draw:name="color-yellow-50" draw:color="#fff44f" />
+  
+  <draw:color draw:name="color-yellow-60" draw:color="#f7e800" />
+  
+  <draw:color draw:name="color-red-40" draw:color="#fe7c87" />
+  
+  <draw:color draw:name="color-red-50" draw:color="#ff4f5e" />
+  
+  <draw:color draw:name="color-red-60" draw:color="#e53c4a" />
+  
+  <draw:color draw:name="color-green-40" draw:color="#adffdf" />
+  
+  <draw:color draw:name="color-green-50" draw:color="#54ffbd" />
+  
+  <draw:color draw:name="color-green-60" draw:color="#2ce69e" />
+  
+  <draw:color draw:name="color-teal-40" draw:color="#25bcbc" />
+  
+  <draw:color draw:name="color-teal-50" draw:color="#0f8f8f" />
+  
+  <draw:color draw:name="color-teal-60" draw:color="#005e5e" />
+  
+  <draw:color draw:name="color-purple-40" draw:color="#9f54b2" />
+  
+  <draw:color draw:name="color-purple-50" draw:color="#6e008b" />
+  
+  <draw:color draw:name="color-purple-60" draw:color="#4f0164" />
+  
+  <draw:color draw:name="color-blue-40" draw:color="#539ee9" />
+  
+  <draw:color draw:name="color-blue-50" draw:color="#2374c6" />
+  
+  <draw:color draw:name="color-blue-60" draw:color="#00458b" />
+  
+  <draw:color draw:name="color-gray-10" draw:color="#f9f9fa" />
+  
+  <draw:color draw:name="color-gray-20" draw:color="#ededf0" />
+  
+  <draw:color draw:name="color-gray-30" draw:color="#f5f5f5" />
+  
+  <draw:color draw:name="color-gray-40" draw:color="#e7e7e7" />
+  
+  <draw:color draw:name="color-gray-50" draw:color="#c8c8c8" />
+  
+  <draw:color draw:name="color-gray-60" draw:color="#959595" />
+  
+  <draw:color draw:name="color-gray-70" draw:color="#38383d" />
+  
+  <draw:color draw:name="color-gray-80" draw:color="#2a2a2e" />
+  
+  <draw:color draw:name="color-gray-90" draw:color="#959595" />
+  
+  <draw:color draw:name="color-link" draw:color="#0060df" />
+  
+  <draw:color draw:name="color-link-hover" draw:color="#003eaa" />
+  
+  <draw:color draw:name="color-link-visited" draw:color="#8000d7" />
+  
+  <draw:color draw:name="color-link-visited-hover" draw:color="#6200a4" />
+</ooo:color-table>

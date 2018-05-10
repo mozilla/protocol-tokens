@@ -1,0 +1,196 @@
+global:
+  type: color
+  category: background-color
+imports:
+  - ./_aliases.yml
+props:
+
+  # Mozilla Brand Colors
+
+  - name: brand-primary
+    value: '{!brand-primary}'
+    meta:
+      friendlyName: Black
+  - name: brand-secondary
+    value: '{!brand-secondary}'
+    meta:
+      friendlyName: White
+  - name: brand-neon-blue
+    value: '{!brand-neon-blue}'
+    meta:
+      friendlyName: Neon Blue
+  - name: brand-lemon-yellow
+    value: '{!brand-lemon-yellow}'
+    meta:
+      friendlyName: Lemon Yellow
+  - name: brand-warm-red
+    value: '{!brand-warm-red}'
+    meta:
+      friendlyName: Warm Red
+  - name: brand-neon-green
+    value: '{!brand-neon-green}'
+    meta:
+      friendlyName: Neon Green
+  - name: brand-dark-purple
+    value: '{!brand-dark-purple}'
+    meta:
+      friendlyName: Dark Purple
+  - name: brand-dark-green
+    value: '{!brand-dark-green}'
+    meta:
+      friendlyName: Dark Green
+  - name: brand-dark-blue
+    value: '{!brand-dark-blue}'
+    meta:
+      friendlyName: Dark Blue
+
+  # UI Colors
+
+  - name: color-black
+    value: '{!color-black}'
+    meta:
+      friendlyName: Black
+  - name: color-white
+    value: '{!color-white}'
+    meta:
+      friendlyName: White
+  - name: color-cyan-40
+    value: '{!color-cyan-40}'
+    meta:
+      friendlyName: Cyan 40
+  - name: color-cyan-50
+    value: '{!color-cyan-50}'
+    meta:
+      friendlyName: Cyan 50
+  - name: color-cyan-60
+    value: '{!color-cyan-60}'
+    meta:
+      friendlyName: Cyan 60
+  - name: color-yellow-40
+    value: '{!color-yellow-40}'
+    meta:
+      friendlyName: Yellow 40
+  - name: color-yellow-50
+    value: '{!color-yellow-50}'
+    meta:
+      friendlyName: Yellow 50
+  - name: color-yellow-60
+    value: '{!color-yellow-60}'
+    meta:
+      friendlyName: Yellow 60
+  - name: color-red-40
+    value: '{!color-red-40}'
+    meta:
+      friendlyName: Red 40
+  - name: color-red-50
+    value: '{!color-red-50}'
+    meta:
+      friendlyName: Red 50
+  - name: color-red-60
+    value: '{!color-red-60}'
+    meta:
+      friendlyName: Green 60
+  - name: color-green-40
+    value: '{!color-green-40}'
+    meta:
+      friendlyName: Green 40
+  - name: color-green-50
+    value: '{!color-green-50}'
+    meta:
+      friendlyName: Green 50
+  - name: color-green-60
+    value: '{!color-green-60}'
+    meta:
+      friendlyName: Green 60
+  - name: color-teal-40
+    value: '{!color-teal-40}'
+    meta:
+      friendlyName: Teal 40
+  - name: color-teal-50
+    value: '{!color-teal-50}'
+    meta:
+      friendlyName: Teal 50
+  - name: color-teal-60
+    value: '{!color-teal-60}'
+    meta:
+      friendlyName: Teal 60
+  - name: color-purple-40
+    value: '{!color-purple-40}'
+    meta:
+      friendlyName: Purple 40
+  - name: color-purple-50
+    value: '{!color-purple-50}'
+    meta:
+      friendlyName: Purple 50
+  - name: color-purple-60
+    value: '{!color-purple-60}'
+    meta:
+      friendlyName: Purple 60
+  - name: color-blue-40
+    value: '{!color-blue-40}'
+    meta:
+      friendlyName: Blue 40
+  - name: color-blue-50
+    value: '{!color-blue-50}'
+    meta:
+      friendlyName: Blue 50
+  - name: color-blue-60
+    value: '{!color-blue-60}'
+    meta:
+      friendlyName: Blue 60
+
+  - name: color-gray-10
+    value: '{!color-gray-10}'
+    meta:
+      friendlyName: Gray 10
+  - name: color-gray-20
+    value: '{!color-gray-20}'
+    meta:
+      friendlyName: Gray 20
+  - name: color-gray-30
+    value: '{!color-gray-30}'
+    meta:
+      friendlyName: Gray 30
+  - name: color-gray-40
+    value: '{!color-gray-40}'
+    meta:
+      friendlyName: Gray 40
+  - name: color-gray-50
+    value: '{!color-gray-50}'
+    meta:
+      friendlyName: Gray 50
+  - name: color-gray-60
+    value: '{!color-gray-60}'
+    meta:
+      friendlyName: Gray 60
+  - name: color-gray-70
+    value: '{!color-gray-70}'
+    meta:
+      friendlyName: Gray 70
+  - name: color-gray-80
+    value: '{!color-gray-80}'
+    meta:
+      friendlyName: Gray 80
+  - name: color-gray-90
+    value: '{!color-gray-60}'
+    meta:
+      friendlyName: Gray 90
+
+  # Link Colors
+
+  - name: color-link
+    value: '{!color-link}'
+    meta:
+      friendlyName: Link
+  - name: color-link-hover
+    value: '{!color-link-hover}'
+    meta:
+      friendlyName: Link:Hover
+  - name: color-link-visited
+    value: '{!color-link-visited}'
+    meta:
+      friendlyName: Link:Visited
+  - name: color-link-visited-hover
+    value: '{!color-link-visited-hover}'
+    meta:
+      friendlyName: Link:Visited:Hover

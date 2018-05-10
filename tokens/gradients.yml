@@ -1,0 +1,29 @@
+# Note: aliases can't be referenced in meta values
+
+global:
+  type: color
+  category: background-color
+imports:
+  - ./_aliases.yml
+props:
+  - name: gradient-greyscale
+    value: 'linear-gradient(90deg, {!color-black}, {!color-white})'
+    meta:
+      friendlyName: Greyscale Gradient
+      type: 'linear'
+      angle: '90deg'
+      value: '#000000, #FFFFFF'
+  - name: gradient-focus
+    value: 'linear-gradient(45deg, #4A1475, #671878, #C42482, #FF271D)'
+    meta:
+      friendlyName: Firefox Focus Gradient
+      type: 'linear'
+      angle: '45deg'
+      value: '#4A1475, #671878, #C42482, #FF271D'
+  - name: gradient-helloworld
+    value: 'radial-gradient(33deg, #4A1475, #671878, #C42482, #FF271D)'
+    meta:
+      friendlyName: Hello World Gradient
+      type: 'radial'
+      angle: '33deg'
+      value: '#4A1475, #671878, #C42482'
