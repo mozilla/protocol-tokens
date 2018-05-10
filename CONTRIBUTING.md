@@ -1,30 +1,15 @@
 # Contribute
 
-Open an [issue](https://github.com/mozilla/protocol-design-tokens/issues/new) or submit a pull request.
+Open an [issue](https://github.com/mozilla/protocol-tokens/issues/new) or submit a pull request.
 
 ## Clone repository
 
 ```
-$ git clone git@github.com:mozilla/protocol-design-tokens.git
-$ cd design-tokens/protocol-colors
+$ git clone git@github.com:mozilla/protocol-tokens.git
+$ cd protocol-tokens
 $ npm install
 
 ```
-
-## Add or change color
-
-1. Edit `./colors/protocol-colors.json`
-2. In the terminal, run `npm run build`
-
-## Add or change gradient
-
-1. Edit `./gradients/protocol-gradients.json`
-2. In the terminal, run `npm run build`
-
-## Add file type
-
-1. Edit `./build.js`
-2. In the terminal, run `npm run build`
 
 ## Update version number
 

@@ -1,4 +1,4 @@
-# Protocol Design Tokens
+# Protocol Tokens
 
 Design tokens for Protocol, Mozilla’s design system.
 
@@ -18,7 +18,7 @@ Design tokens for Protocol, Mozilla’s design system.
 </tr>
 <tr>
 <td>Version</td>
-<td>[1.0.0](https://github.com/mozilla/protocol-design-tokens/blob/master/protocol-colors/CHANGELOG.md)</td>
+<td>[1.0.0](https://github.com/mozilla/protocol-tokens/CHANGELOG.md)</td>
 </tr>
 </table>
 
@@ -98,4 +98,4 @@ to learn how to propose changes and understand our development process.
 
 ### [License](https://github.com/mozilla/protocol-tokens/blob/master/LICENSE.md)
 
-The protocol-tokens project is available under the [MPL License](https://github.com/mozilla/protocol-tokens/blob/master/LICENSE.md).
+The protocol-tokens project is available under the [MPL-2.0](https://github.com/mozilla/protocol-tokens/blob/master/LICENSE.md).
