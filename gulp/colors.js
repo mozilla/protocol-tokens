@@ -16,7 +16,7 @@ theo.registerFormat('colors.android.xml', `<?xml version="1.0" encoding="utf-8"?
 theo.registerFormat('colors.swift', `extension UIColor {
   struct Protocol {
     {{#each props as |prop|}}
-      static let {{prop.name}} = UIColor(rgb: 0x{{prop.value}})
+      static let {{prop.name}} = UIColor(rgb: 0x{{replace prop.value '#' ''}})
     {{/each}}
   }
 }
