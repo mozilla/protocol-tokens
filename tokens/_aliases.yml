@@ -4,13 +4,13 @@ aliases:
 
   brand-primary: '{!color-black}'
   brand-secondary: '{!color-white}'
-  color-neon-blue: '#00ffff'
-  color-lemon-yellow: '#fff44f'
-  color-warm-red: '#ff4f5e'
-  color-neon-green: '#54ffbd'
-  color-dark-purple: '#6e008b'
-  color-dark-green: '#005e5e'
-  color-dark-blue: '#00458b'
+  brand-neon-blue: '#00ffff'
+  brand-lemon-yellow: '#fff44f'
+  brand-warm-red: '#ff4f5e'
+  brand-neon-green: '#54ffbd'
+  brand-dark-purple: '#6e008b'
+  brand-dark-green: '#005e5e'
+  brand-dark-blue: '#00458b'
 
   # UI Colors
 
