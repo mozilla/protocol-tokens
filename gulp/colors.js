@@ -3,24 +3,6 @@ const gulpTheo = require('gulp-theo')
 const theo = require('theo')
 const path = require('path')
 const runSequence = require('run-sequence')
-const rename = require('gulp-rename')
-
-theo.registerFormat('colors.android.xml', `<?xml version="1.0" encoding="utf-8"?>
-<resources>
-  {{~#each props as |prop|}}
-  {{#if prop.comment}}// {{{prop.comment}}}{{/if}}
-  <color name="{{replace prop.name '-' '_'}}">{{prop.value}}</color>{{/each}}
-</resources>
-`)
-
-theo.registerFormat('colors.swift', `extension UIColor {
-  struct Protocol {
-    {{#each props as |prop|}}
-      static let {{prop.name}} = UIColor(rgb: 0x{{replace prop.value '#' ''}})
-    {{/each}}
-  }
-}
-`)
 
 theo.registerFormat('colors.soc', `<?xml version="1.0" encoding="UTF-8"?>
 <ooo:color-table
@@ -65,6 +47,7 @@ const colorsFormats = [
   'custom-properties.css',
   'common.js',
   'json',
+  'ios.json',
   'less',
   'scss',
   'colors.soc'
@@ -95,25 +78,7 @@ gulp.task('colors:web', () => {
 gulp.task('colors:android', () => {
   gulp.src('tokens/colors.yml')
   .pipe(gulpTheo({
-    transform: { type: 'android' },
-    format: { type: 'colors.android.xml' }
-  }))
-  .pipe(rename(opt=> {
-    opt.basename = opt.basename.replace('colors.', '');
-    return opt;
-  }))
-  .pipe(gulp.dest('dist/colors'))
-});
-
-// Formats with 8-digit hex values
-gulp.task('colors:swift', () => {
-  gulp.src('tokens/colors.yml')
-  .pipe(gulpTheo({
-    format: { type: 'colors.swift' }
-  }))
-  .pipe(rename(opt => {
-    opt.basename = opt.basename.replace('colors.', '');
-    return opt;
+    format: { type: 'android.xml' }
   }))
   .pipe(gulp.dest('dist/colors'))
 });
@@ -123,7 +88,6 @@ gulp.task('colors', (done) => {
   runSequence([
     'colors:raw',
     'colors:web',
-    'colors:android',
-    'colors:swift'
+    'colors:android'
   ], done)
 });
