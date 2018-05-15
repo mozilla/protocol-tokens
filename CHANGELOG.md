@@ -1,3 +1,14 @@
+# 1.1.0 (2018-05-15)
+
+### Bug Fixes
+
+* **colors:** colors.yml file was updated to match the color values in the aliases.yml file
+
+### Features
+
+* **gradients:** removes iOS and Android support
+
+
 # 1.0.0 (2018-05-10)
 
 ### Features
