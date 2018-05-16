@@ -1,6 +1,7 @@
-const gulp = require('gulp')
-const theo = require('theo')
-const runSequence = require('run-sequence')
+const gulp = require('gulp');
+const theo = require('theo');
+const runSequence = require('run-sequence');
+const del = require('del');
 
 // Universal Formats
 theo.registerFormat('json', `[
@@ -16,15 +17,13 @@ theo.registerFormat('json', `[
     "token": "\${{prop.name}}",
   }{{#unless @last}},{{/unless}}{{/each}}
 ]
-`)
+`);
+
+gulp.task('clean', () => del('./dist'));
 
 gulp.task('default', (done) => {
-  runSequence([
-    '_index',
-    'breakpoints',
-    'colors',
-    'gradients',
-    'font-stack',
-    'units'
-  ], done)
+    runSequence(
+        ['clean'],
+        ['_index', 'breakpoints', 'colors', 'gradients', 'font-stack', 'units'],
+        done);
 });
