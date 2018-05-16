@@ -5,8 +5,10 @@
   "main": "dist/index.js",
   "style": "dist/index.scss",
   "scripts": {
+    "lint-js": "./node_modules/.bin/eslint .",
     "lint-css": "./node_modules/.bin/stylelint '**/*.css' '**/*.scss'",
-    "pre-test": "npm run lint-css"
+    "pre-test": "npm run lint-css && npm run lint-js",
+    "test": "gulp"
   },
   "repository": {
     "type": "git",
@@ -26,6 +28,7 @@
   },
   "homepage": "https://github.com/mozilla/protocol-design-tokens#readme",
   "devDependencies": {
+    "del": "^3.0.0",
     "eslint": "^4.19.1",
     "gulp": "^3.9.1",
     "gulp-rename": "^1.2.2",
