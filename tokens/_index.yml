@@ -1,5 +1,6 @@
 imports:
   - ./breakpoints.yml
+  - ./content.yml
   - ./colors.yml
   - ./font-stack.yml
   - ./gradients.yml

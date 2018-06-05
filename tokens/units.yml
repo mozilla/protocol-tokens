@@ -1,7 +1,7 @@
 # Note: aliases can't be referenced in meta values
 
 global:
-  type: string
+  type: web
   category: padding
 imports:
   - ./_aliases.yml
