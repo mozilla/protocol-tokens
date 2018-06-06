@@ -5,30 +5,6 @@ imports:
   - ./_aliases.yml
 props:
 
-  - name: 'content-xs'
-    value: '{!content-xs}'
-  - name: 'content-sm'
-    value: '{!content-sm}'
-  - name: 'content-md'
-    value: '{!content-md}'
-  - name: 'content-lg'
-    value: '{!content-lg}'
-  - name: 'content-xl'
-    value: '{!content-xl}'
-  - name: 'content-max'
-    value: '{!content-max}'
-
-  - name: 'screen-xs'
-    value: '{!content-xs}'
-  - name: 'screen-sm'
-    value: '{!content-sm}'
-  - name: 'screen-md'
-    value: '{!content-md}'
-  - name: 'screen-lg'
-    value: '{!content-lg}'
-  - name: 'screen-xl'
-    value: '{!content-xl}'
-
   - name: 'mq-xs'
     value: '{!mq-xs}'
   - name: 'mq-sm'

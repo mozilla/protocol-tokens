@@ -1,3 +1,9 @@
+# 1.2.0 (2018-06-05)
+
+### Bug Fixes
+
+* **units:** units are now formatted correctly as pixel values instead of strings (#9)
+
 # 1.1.0 (2018-05-15)
 
 ### Bug Fixes
