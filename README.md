@@ -18,13 +18,13 @@ Design tokens for Protocol, Mozilla’s design system.
 </tr>
 <tr>
 <td>Version</td>
-<td>[1.0.0](https://github.com/mozilla/protocol-tokens/CHANGELOG.md)</td>
+<td><a href="https://github.com/mozilla/protocol-tokens/CHANGELOG.md">1.2.0</a></td>
 </tr>
 </table>
 
 ## Installation
 
-Protocol design tokens are available as an npm package (`@mozilla-protocol/tokens`) on [npm](https://www.npmjs.com/).
+Protocol design tokens are available as an npm package (`@mozilla-protocol/tokens`) on [npm](https://www.npmjs.com/package/@mozilla-protocol/tokens).
 
 The recommended way to use and install design tokens may vary depending on your project; the most common are documented below.
 
