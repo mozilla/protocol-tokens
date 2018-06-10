@@ -131,11 +131,11 @@ aliases:
   content-xl: '1248px'
   content-max: '{!content-xl}'
 
-  screen-xs: '{!content-xs} + 16px'
-  screen-sm: '{!content-sm} + 16px'
-  screen-md: '{!content-md} + 32px'
-  screen-lg: '{!content-lg} + 64px'
-  screen-xl: '{!content-xl} + 64px'
+  screen-xs: '320px' # content-xs + 16px
+  screen-sm: '480px' # content-sm + 16px
+  screen-md: '768px' # content-md + 32px
+  screen-lg: '1056px' # content-lg + 64px
+  screen-xl: '1312px' # content-xl + 64px
 
   mq-xs: 'screen and (min-width: {!screen-xs})'
   mq-sm: 'screen and (min-width: {!screen-sm})'

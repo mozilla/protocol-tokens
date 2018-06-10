@@ -1,3 +1,9 @@
+# 1.2.1 (2018-06-08)
+
+### Bug Fixes
+
+* **breakpoints:** media query strings we're previously invalid, since yaml cannot perform arithmetic (#13)
+
 # 1.2.0 (2018-06-05)
 
 ### Bug Fixes
