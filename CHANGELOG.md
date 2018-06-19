@@ -1,3 +1,10 @@
+# 1.2.2 (2018-06-19)
+
+### Bug Fixes
+
+* **units:** layout-lg, layout-xl & layout-2xl values we're incorrect (#16)
+* **docs:** link to CHANGELOG.md in README.md was 404.
+
 # 1.2.1 (2018-06-08)
 
 ### Bug Fixes

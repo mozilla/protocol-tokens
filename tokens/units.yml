@@ -60,10 +60,10 @@ props:
   - name: layout-md
     value: '{!layout-md}'
   - name: layout-lg
-    value: '{!margin-lg}'
+    value: '{!layout-lg}'
   - name: layout-xl
-    value: '{!margin-xl}'
+    value: '{!layout-xl}'
   - name: layout-2xl
-    value: '{!margin-2xl}'
+    value: '{!layout-2xl}'
   - name: layout-base
     value: '{!layout-base}'
