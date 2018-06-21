@@ -1,3 +1,9 @@
+# 1.3.0 (2018-06-21)
+
+### Bug Fixes
+
+* **content:** update content-max value to match bedrock (#18)
+
 # 1.2.2 (2018-06-19)
 
 ### Bug Fixes
