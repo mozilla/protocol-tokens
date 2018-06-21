@@ -129,7 +129,7 @@ aliases:
   content-md: '736px'
   content-lg: '992px'
   content-xl: '1248px'
-  content-max: '{!content-xl}'
+  content-max: '1420px'
 
   screen-xs: '320px' # content-xs + 16px
   screen-sm: '480px' # content-sm + 16px
