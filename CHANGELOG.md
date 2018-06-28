@@ -1,3 +1,9 @@
+# 1.3.1 (2018-06-27)
+
+### Bug Fixes
+
+* **json:** Remove extraneous trailing comma from json data formatting (#20)
+
 # 1.3.0 (2018-06-21)
 
 ### Bug Fixes

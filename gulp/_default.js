@@ -14,7 +14,7 @@ theo.registerFormat('json', `[
     "name": "{{prop.name}}",
     {{/if}}
     "value": "{{prop.value}}",
-    "token": "\${{prop.name}}",
+    "token": "\${{prop.name}}"
   }{{#unless @last}},{{/unless}}{{/each}}
 ]
 `);
