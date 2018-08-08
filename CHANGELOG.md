@@ -1,3 +1,9 @@
+# HEAD
+
+### Bug Fixes
+
+* **units:** Color value for Gray 90 was incorrectly mapped to Gray 60 (#23)
+
 # 1.3.1 (2018-06-27)
 
 ### Bug Fixes
