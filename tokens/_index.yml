@@ -1,5 +1,5 @@
 imports:
-  - ./breakpoints.yml
+  - ./media-queries.yml
   - ./content.yml
   - ./colors.yml
   - ./font-stack.yml
