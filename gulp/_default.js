@@ -24,6 +24,6 @@ gulp.task('clean', () => del('./dist'));
 gulp.task('default', (done) => {
     runSequence(
         ['clean'],
-        ['_index', 'breakpoints', 'content', 'colors', 'gradients', 'font-stack', 'units'],
+        ['_index', 'media-queries', 'content', 'colors', 'gradients', 'font-stack', 'units'],
         done);
 });

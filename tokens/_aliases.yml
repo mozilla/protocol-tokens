@@ -123,7 +123,7 @@ aliases:
   layout-2xl: '160px'
   layout-base: '{!layout-md}'
 
-  # Breakpoints
+  # Content
   content-xs: '304px'
   content-sm: '464px'
   content-md: '736px'
@@ -137,11 +137,17 @@ aliases:
   screen-lg: '1056px' # content-lg + 64px
   screen-xl: '1312px' # content-xl + 64px
 
+  # Media Queries
   mq-xs: 'screen and (min-width: {!screen-xs})'
   mq-sm: 'screen and (min-width: {!screen-sm})'
   mq-md: 'screen and (min-width: {!screen-md})'
   mq-lg: 'screen and (min-width: {!screen-lg})'
   mq-xl: 'screen and (min-width: {!screen-xl})'
+
+  mq-short: '(max-height: 600px)'
+  mq-tall: '(min-height: 600px)'
+
+  mq-high-res: 'only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi)'
 
   # Font Stack
   font-stack-sans: "'Open Sans', X-LocaleSpecific, sans-serif"
