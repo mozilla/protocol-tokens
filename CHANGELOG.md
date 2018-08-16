@@ -5,6 +5,10 @@
 * **media-queries:** Add mq-short, mq-tall, and mq-high-res tokens. (#22)
 * **breakpoints:** Renamed breakpoints.yml to media-queries.yml (#22)
 
+### Bug Fixes
+
+* **units:** Color value for Gray 90 was incorrectly mapped to Gray 60 (#23)
+
 # 1.3.1 (2018-06-27)
 
 ### Bug Fixes
