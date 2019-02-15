@@ -1,22 +1,31 @@
+'use strict';
+
 const gulp = require('gulp');
 const gulpTheo = require('gulp-theo');
+const merge = require('merge-stream');
 
-// Formats with px values
+// Formats with hex values
 const unitsFormats = [
     'custom-properties.css',
     'common.js',
-    'json',
     'less',
+    'json',
     'scss'
 ];
 
-gulp.task('content', () => {
+function units() {
+    let tasks = [];
+
     unitsFormats.map((format) => {
-        gulp.src('tokens/content.yml')
+        tasks.push(gulp.src('tokens/units.yml')
             .pipe(gulpTheo({
                 transform: { includeMeta: true },
                 format: { type: format }
             }))
-            .pipe(gulp.dest('dist/content'));
+            .pipe(gulp.dest('dist/units')));
     });
-});
+
+    return merge(tasks);
+}
+
+module.exports = units;

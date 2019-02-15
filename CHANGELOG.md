@@ -1,3 +1,9 @@
+# HEAD
+
+### Features
+
+* **gulp:** Update to Gulp 4.0.0 and Theo 8.1.1
+
 # 2.1.0 (2018-11-19)
 
 ### Bug Fixes

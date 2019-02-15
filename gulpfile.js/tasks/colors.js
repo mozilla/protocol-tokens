@@ -1,7 +1,9 @@
+'use strict';
+
 const gulp = require('gulp');
 const gulpTheo = require('gulp-theo');
+const merge = require('merge-stream');
 const theo = require('theo');
-const runSequence = require('run-sequence');
 
 theo.registerFormat('colors.soc', `<?xml version="1.0" encoding="UTF-8"?>
 <ooo:color-table
@@ -53,41 +55,41 @@ const colorsFormats = [
     'colors.soc'
 ];
 
-gulp.task('colors:raw', () => {
+function raw() {
+    let tasks = [];
+
     colorsFormats.map((format) => {
-        gulp.src('tokens/colors.yml')
+        tasks.push(gulp.src('tokens/colors.yml')
             .pipe(gulpTheo({
                 transform: { includeMeta: true },
                 format: { type: format }
             }))
-            .pipe(gulp.dest('dist/colors'));
+            .pipe(gulp.dest('dist/colors')));
     });
-});
+
+    return merge(tasks);
+}
 
 // Formats with rgb() values
-gulp.task('colors:web', () => {
-    gulp.src('tokens/colors.yml')
+function web() {
+    return gulp.src('tokens/colors.yml')
         .pipe(gulpTheo({
             transform: { type: 'web' },
             format: { type: 'gpl' }
         }))
         .pipe(gulp.dest('dist/colors'));
-});
+}
 
 // Formats with 8-digit hex values
-gulp.task('colors:android', () => {
-    gulp.src('tokens/colors.yml')
+function android() {
+    return gulp.src('tokens/colors.yml')
         .pipe(gulpTheo({
             format: { type: 'android.xml' }
         }))
         .pipe(gulp.dest('dist/colors'));
-});
+}
 
 // All formats
-gulp.task('colors', (done) => {
-    runSequence([
-        'colors:raw',
-        'colors:web',
-        'colors:android'
-    ], done);
-});
+const colors = gulp.parallel(raw, web, android);
+
+module.exports = colors;

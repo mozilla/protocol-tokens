@@ -1,5 +1,8 @@
+'use strict';
+
 const gulp = require('gulp');
 const gulpTheo = require('gulp-theo');
+const merge = require('merge-stream');
 const rename = require('gulp-rename');
 
 // Formats with hex values
@@ -11,9 +14,11 @@ const indexFormats = [
     'scss'
 ];
 
-gulp.task('_index', () => {
+function index() {
+    let tasks = [];
+
     indexFormats.map((format) => {
-        gulp.src('tokens/_index.yml')
+        tasks.push(gulp.src('tokens/_index.yml')
             .pipe(gulpTheo({
                 transform: { includeMeta: true },
                 format: { type: format }
@@ -21,6 +26,10 @@ gulp.task('_index', () => {
             .pipe(rename(function(path) {
                 path.basename = 'index';
             }))
-            .pipe(gulp.dest('dist/'));
+            .pipe(gulp.dest('dist/')));
     });
-});
+
+    return merge(tasks);
+}
+
+module.exports = index;
