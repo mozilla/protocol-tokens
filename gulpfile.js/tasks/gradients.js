@@ -1,5 +1,8 @@
+'use strict';
+
 const gulp = require('gulp');
 const gulpTheo = require('gulp-theo');
+const merge = require('merge-stream');
 
 const gradientsFormats = [
     'custom-properties.css',
@@ -9,13 +12,19 @@ const gradientsFormats = [
     'json'
 ];
 
-gulp.task('gradients', () => {
+function gradients() {
+    let tasks = [];
+
     gradientsFormats.map((format) => {
-        gulp.src('tokens/gradients.yml')
+        tasks.push(gulp.src('tokens/gradients.yml')
             .pipe(gulpTheo({
                 transform: { includeMeta: true },
                 format: { type: format }
             }))
-            .pipe(gulp.dest('dist/gradients'));
+            .pipe(gulp.dest('dist/gradients')));
     });
-});
+
+    return merge(tasks);
+}
+
+module.exports = gradients;

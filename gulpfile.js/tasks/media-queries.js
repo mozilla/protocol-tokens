@@ -1,5 +1,8 @@
+'use strict';
+
 const gulp = require('gulp');
 const gulpTheo = require('gulp-theo');
+const merge = require('merge-stream');
 
 // Formats with hex values
 const unitsFormats = [
@@ -10,13 +13,19 @@ const unitsFormats = [
     'scss'
 ];
 
-gulp.task('font-stack', () => {
-    unitsFormats.map(format => {
-        gulp.src('tokens/font-stack.yml')
+function mediaQueries() {
+    let tasks = [];
+
+    unitsFormats.map((format) => {
+        tasks.push(gulp.src('tokens/media-queries.yml')
             .pipe(gulpTheo({
                 transform: { includeMeta: true },
                 format: { type: format }
             }))
-            .pipe(gulp.dest('dist/font-stack'));
+            .pipe(gulp.dest('dist/media-queries')));
     });
-});
+
+    return merge(tasks);
+}
+
+module.exports = mediaQueries;
