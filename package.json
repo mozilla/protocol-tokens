@@ -7,7 +7,7 @@
   "scripts": {
     "lint-js": "./node_modules/.bin/eslint .",
     "lint-css": "./node_modules/.bin/stylelint '**/*.css' '**/*.scss'",
-    "pre-test": "npm run lint-css && npm run lint-js",
+    "pretest": "npm run lint-css && npm run lint-js",
     "test": "gulp"
   },
   "repository": {
@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/mozilla/protocol-tokens#readme",
   "devDependencies": {
+    "@mozilla-protocol/eslint-config": "^1.1.0",
     "del": "^3.0.0",
     "eslint": "^5.13.0",
     "gulp": "^4.0.0",
