@@ -247,6 +247,10 @@ props:
     value: '{!color-blue-50}'
     meta:
       friendlyName: Blue 50
+  - name: color-blue-50-a30
+    value: '{!color-blue-50-a30}'
+    meta:
+      friendlyName: Blue 50 A30
   - name: color-blue-60
     value: '{!color-blue-60}'
     meta:
