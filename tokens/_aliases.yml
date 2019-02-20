@@ -95,33 +95,11 @@ aliases:
   spacing-md: '16px'
   spacing-lg: '24px'
   spacing-xl: '32px'
-  spacing-2xl: '48px'
-  spacing-base: '{!spacing-md}'
-
-  padding-xs: '{!spacing-xs}'
-  padding-sm: '{!spacing-sm}'
-  padding-md: '{!spacing-md}'
-  padding-lg: '{!spacing-lg}'
-  padding-xl: '{!spacing-xl}'
-  padding-2xl: '{!spacing-2xl}'
-  padding-base: '{!spacing-base}'
-
-  margin-xs: '{!spacing-xs}'
-  margin-sm: '{!spacing-sm}'
-  margin-md: '{!spacing-md}'
-  margin-lg: '{!spacing-lg}'
-  margin-xl: '{!spacing-xl}'
-  margin-2xl: '{!spacing-2xl}'
-  margin-base: '{!spacing-base}'
-
-  layout-2xs: '16px'
-  layout-xs: '24px'
-  layout-sm: '32px'
-  layout-md: '48px'
-  layout-lg: '64px'
-  layout-xl: '96px'
-  layout-2xl: '160px'
-  layout-base: '{!layout-md}'
+  
+  layout-xs: '48px'
+  layout-sm: '64px'
+  layout-md: '96px'
+  layout-lg: '160px'
 
   # Content
   content-xs: '304px'

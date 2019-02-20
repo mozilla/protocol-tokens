@@ -2,6 +2,7 @@
 
 ### Features
 
+* **units:** Removes spacing-base, spacing-2xl, padding, margin, layout-2xs, layout-xl, layout-2xl, layout-base. Changes the values of layout-sm,layout-md, layout-lg, layout-xl 
 * **gulp:** Update to Gulp 4.0.0 and Theo 8.1.1
 
 # 2.1.0 (2018-11-19)
