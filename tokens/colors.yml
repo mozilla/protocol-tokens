@@ -5,47 +5,6 @@ imports:
   - ./_aliases.yml
 props:
 
-  # Mozilla Brand Colors
-
-  - name: brand-primary
-    value: '{!brand-primary}'
-    meta:
-      friendlyName: Black
-  - name: brand-secondary
-    value: '{!brand-secondary}'
-    meta:
-      friendlyName: White
-  - name: brand-neon-blue
-    value: '{!brand-neon-blue}'
-    meta:
-      friendlyName: Neon Blue
-  - name: brand-lemon-yellow
-    value: '{!brand-lemon-yellow}'
-    meta:
-      friendlyName: Lemon Yellow
-  - name: brand-warm-red
-    value: '{!brand-warm-red}'
-    meta:
-      friendlyName: Warm Red
-  - name: brand-neon-green
-    value: '{!brand-neon-green}'
-    meta:
-      friendlyName: Neon Green
-  - name: brand-dark-purple
-    value: '{!brand-dark-purple}'
-    meta:
-      friendlyName: Dark Purple
-  - name: brand-dark-green
-    value: '{!brand-dark-green}'
-    meta:
-      friendlyName: Dark Green
-  - name: brand-dark-blue
-    value: '{!brand-dark-blue}'
-    meta:
-      friendlyName: Dark Blue
-
-  # UI Colors
-
   - name: color-black
     value: '{!color-black}'
     meta:
@@ -54,27 +13,307 @@ props:
     value: '{!color-white}'
     meta:
       friendlyName: White
-  - name: color-magenta-50
-    value: '{!color-magenta-50}'
+  
+  - name: color-pink-5
+    value: '{!color-pink-5}'
     meta:
-      friendlyName: Magenta 50
-  - name: color-magenta-60
-    value: '{!color-magenta-60}'
+      friendlyName: Pink 5
+  - name: color-pink-10
+    value: '{!color-pink-10}'
     meta:
-      friendlyName: Magenta 60
-  - name: color-magenta-70
-    value: '{!color-magenta-70}'
+      friendlyName: Pink 10
+  - name: color-pink-20
+    value: '{!color-pink-20}'
     meta:
-      friendlyName: Magenta 70
-  - name: color-magenta-80
-    value: '{!color-magenta-80}'
+      friendlyName: Pink 20
+  - name: color-pink-30
+    value: '{!color-pink-30}'
     meta:
-      friendlyName: Magenta 80
-  - name: color-magenta-90
-    value: '{!color-magenta-90}'
+      friendlyName: Pink 30
+  - name: color-pink-40
+    value: '{!color-pink-40}'
     meta:
-      friendlyName: Magenta 90
+      friendlyName: Pink 40
+  - name: color-pink-50
+    value: '{!color-pink-50}'
+    meta:
+      friendlyName: Pink 50
+  - name: color-pink-60
+    value: '{!color-pink-60}'
+    meta:
+      friendlyName: Pink 60
+  - name: color-pink-70
+    value: '{!color-pink-70}'
+    meta:
+      friendlyName: Pink 70
+  - name: color-pink-80
+    value: '{!color-pink-80}'
+    meta:
+      friendlyName: Pink 80
+  - name: color-pink-90
+    value: '{!color-pink-90}'
+    meta:
+      friendlyName: Pink 90
+      
+  - name: color-red-5
+    value: '{!color-red-5}'
+    meta:
+      friendlyName: Red 5
+  - name: color-red-10
+    value: '{!color-red-10}'
+    meta:
+      friendlyName: Red 10
+  - name: color-red-20
+    value: '{!color-red-20}'
+    meta:
+      friendlyName: Red 20
+  - name: color-red-30
+    value: '{!color-red-30}'
+    meta:
+      friendlyName: Red 30
+  - name: color-red-40
+    value: '{!color-red-40}'
+    meta:
+      friendlyName: Red 40
+  - name: color-red-50
+    value: '{!color-red-50}'
+    meta:
+      friendlyName: Red 50
+  - name: color-red-60
+    value: '{!color-red-60}'
+    meta:
+      friendlyName: Red 60
+  - name: color-red-70
+    value: '{!color-red-70}'
+    meta:
+      friendlyName: Red 70
+  - name: color-red-80
+    value: '{!color-red-80}'
+    meta:
+      friendlyName: Red 80
+  - name: color-red-90
+    value: '{!color-red-90}'
+    meta:
+      friendlyName: Red 90
+      
+  - name: color-orange-5
+    value: '{!color-orange-5}'
+    meta:
+      friendlyName: Orange 5
+  - name: color-orange-10
+    value: '{!color-orange-10}'
+    meta:
+      friendlyName: Orange 10
+  - name: color-orange-20
+    value: '{!color-orange-20}'
+    meta:
+      friendlyName: Orange 20
+  - name: color-orange-30
+    value: '{!color-orange-30}'
+    meta:
+      friendlyName: Orange 30
+  - name: color-orange-40
+    value: '{!color-orange-40}'
+    meta:
+      friendlyName: Orange 40
+  - name: color-orange-50
+    value: '{!color-orange-50}'
+    meta:
+      friendlyName: Orange 50
+  - name: color-orange-60
+    value: '{!color-orange-60}'
+    meta:
+      friendlyName: Orange 60
+  - name: color-orange-70
+    value: '{!color-orange-70}'
+    meta:
+      friendlyName: Orange 70
+  - name: color-orange-80
+    value: '{!color-orange-80}'
+    meta:
+      friendlyName: Orange 80
+  - name: color-orange-90
+    value: '{!color-orange-90}'
+    meta:
+      friendlyName: Orange 90
+      
+  - name: color-yellow-5
+    value: '{!color-yellow-5}'
+    meta:
+      friendlyName: Yellow 5
+  - name: color-yellow-10
+    value: '{!color-yellow-10}'
+    meta:
+      friendlyName: Yellow 10
+  - name: color-yellow-20
+    value: '{!color-yellow-20}'
+    meta:
+      friendlyName: Yellow 20
+  - name: color-yellow-30
+    value: '{!color-yellow-30}'
+    meta:
+      friendlyName: Yellow 30
+  - name: color-yellow-40
+    value: '{!color-yellow-40}'
+    meta:
+      friendlyName: Yellow 40
+  - name: color-yellow-50
+    value: '{!color-yellow-50}'
+    meta:
+      friendlyName: Yellow 50
+  - name: color-yellow-60
+    value: '{!color-yellow-60}'
+    meta:
+      friendlyName: Yellow 60
+  - name: color-yellow-70
+    value: '{!color-yellow-70}'
+    meta:
+      friendlyName: Yellow 70
+  - name: color-yellow-80
+    value: '{!color-yellow-80}'
+    meta:
+      friendlyName: Yellow 80
+  - name: color-yellow-90
+    value: '{!color-yellow-90}'
+    meta:
+      friendlyName: Yellow 90
+      
+  - name: color-green-5
+    value: '{!color-green-5}'
+    meta:
+      friendlyName: Green 5
+  - name: color-green-10
+    value: '{!color-green-10}'
+    meta:
+      friendlyName: Green 10
+  - name: color-green-20
+    value: '{!color-green-20}'
+    meta:
+      friendlyName: Green 20
+  - name: color-green-30
+    value: '{!color-green-30}'
+    meta:
+      friendlyName: Green 30
+  - name: color-green-40
+    value: '{!color-green-40}'
+    meta:
+      friendlyName: Green 40
+  - name: color-green-50
+    value: '{!color-green-50}'
+    meta:
+      friendlyName: Green 50
+  - name: color-green-60
+    value: '{!color-green-60}'
+    meta:
+      friendlyName: Green 60
+  - name: color-green-70
+    value: '{!color-green-70}'
+    meta:
+      friendlyName: Green 70
+  - name: color-green-80
+    value: '{!color-green-80}'
+    meta:
+      friendlyName: Green 80
+  - name: color-green-90
+    value: '{!color-green-90}'
+    meta:
+      friendlyName: Green 90
+      
+  - name: color-blue-5
+    value: '{!color-blue-5}'
+    meta:
+      friendlyName: Blue 5
+  - name: color-blue-10
+    value: '{!color-blue-10}'
+    meta:
+      friendlyName: Blue 10
+  - name: color-blue-20
+    value: '{!color-blue-20}'
+    meta:
+      friendlyName: Blue 20
+  - name: color-blue-30
+    value: '{!color-blue-30}'
+    meta:
+      friendlyName: Blue 30
+  - name: color-blue-40
+    value: '{!color-blue-40}'
+    meta:
+      friendlyName: Blue 40
+  - name: color-blue-50
+    value: '{!color-blue-50}'
+    meta:
+      friendlyName: Blue 50
+  - name: color-blue-60
+    value: '{!color-blue-60}'
+    meta:
+      friendlyName: Blue 60
+  - name: color-blue-70
+    value: '{!color-blue-70}'
+    meta:
+      friendlyName: Blue 70
+  - name: color-blue-80
+    value: '{!color-blue-80}'
+    meta:
+      friendlyName: Blue 80
+  - name: color-blue-90
+    value: '{!color-blue-90}'
+    meta:
+      friendlyName: Blue 90
+      
+  - name: color-violet-5
+    value: '{!color-violet-5}'
+    meta:
+      friendlyName: Violet 5
+  - name: color-violet-10
+    value: '{!color-violet-10}'
+    meta:
+      friendlyName: Violet 10
+  - name: color-violet-20
+    value: '{!color-violet-20}'
+    meta:
+      friendlyName: Violet 20
+  - name: color-violet-30
+    value: '{!color-violet-30}'
+    meta:
+      friendlyName: Violet 30
+  - name: color-violet-40
+    value: '{!color-violet-40}'
+    meta:
+      friendlyName: Violet 40
+  - name: color-violet-50
+    value: '{!color-violet-50}'
+    meta:
+      friendlyName: Violet 50
+  - name: color-violet-60
+    value: '{!color-violet-60}'
+    meta:
+      friendlyName: Violet 60
+  - name: color-violet-70
+    value: '{!color-violet-70}'
+    meta:
+      friendlyName: Violet 70
+  - name: color-violet-80
+    value: '{!color-violet-80}'
+    meta:
+      friendlyName: Violet 80
+  - name: color-violet-90
+    value: '{!color-violet-90}'
+    meta:
+      friendlyName: Violet 90
 
+
+  - name: color-purple-5
+    value: '{!color-purple-5}'
+    meta:
+      friendlyName: Purple 5
+  - name: color-purple-10
+    value: '{!color-purple-10}'
+    meta:
+      friendlyName: Purple 10
+  - name: color-purple-20
+    value: '{!color-purple-20}'
+    meta:
+      friendlyName: Purple 20
   - name: color-purple-30
     value: '{!color-purple-30}'
     meta:
@@ -103,136 +342,6 @@ props:
     value: '{!color-purple-90}'
     meta:
       friendlyName: Purple 90
-
-  - name: color-blue-40
-    value: '{!color-blue-40}'
-    meta:
-      friendlyName: Blue 40
-  - name: color-blue-50
-    value: '{!color-blue-50}'
-    meta:
-      friendlyName: Blue 50
-  - name: color-blue-60
-    value: '{!color-blue-60}'
-    meta:
-      friendlyName: Blue 60
-  - name: color-blue-70
-    value: '{!color-blue-70}'
-    meta:
-      friendlyName: Blue 70
-  - name: color-blue-80
-    value: '{!color-blue-80}'
-    meta:
-      friendlyName: Blue 80
-  - name: color-blue-90
-    value: '{!color-blue-90}'
-    meta:
-      friendlyName: Blue 90
-
-  - name: color-teal-50
-    value: '{!color-teal-50}'
-    meta:
-      friendlyName: Teal 50
-  - name: color-teal-60
-    value: '{!color-teal-60}'
-    meta:
-      friendlyName: Teal 60
-  - name: color-teal-70
-    value: '{!color-teal-70}'
-    meta:
-      friendlyName: Teal 70
-  - name: color-teal-80
-    value: '{!color-teal-80}'
-    meta:
-      friendlyName: Teal 80
-  - name: color-teal-90
-    value: '{!color-teal-90}'
-    meta:
-      friendlyName: Teal 90
-
-  - name: color-green-50
-    value: '{!color-green-50}'
-    meta:
-      friendlyName: Green 50
-  - name: color-green-60
-    value: '{!color-green-60}'
-    meta:
-      friendlyName: Green 60
-  - name: color-green-70
-    value: '{!color-green-70}'
-    meta:
-      friendlyName: Green 70
-  - name: color-green-80
-    value: '{!color-green-80}'
-    meta:
-      friendlyName: Green 80
-  - name: color-green-90
-    value: '{!color-green-90}'
-    meta:
-      friendlyName: Green 90
-
-  - name: color-yellow-50
-    value: '{!color-yellow-50}'
-    meta:
-      friendlyName: Yellow 50
-  - name: color-yellow-60
-    value: '{!color-yellow-60}'
-    meta:
-      friendlyName: Yellow 60
-  - name: color-yellow-70
-    value: '{!color-yellow-70}'
-    meta:
-      friendlyName: Yellow 70
-  - name: color-yellow-80
-    value: '{!color-yellow-80}'
-    meta:
-      friendlyName: Yellow 80
-  - name: color-yellow-90
-    value: '{!color-yellow-90}'
-    meta:
-      friendlyName: Yellow 90
-
-  - name: color-red-50
-    value: '{!color-red-50}'
-    meta:
-      friendlyName: Red 50
-  - name: color-red-60
-    value: '{!color-red-60}'
-    meta:
-      friendlyName: Red 60
-  - name: color-red-70
-    value: '{!color-red-70}'
-    meta:
-      friendlyName: Red 70
-  - name: color-red-80
-    value: '{!color-red-80}'
-    meta:
-      friendlyName: Red 80
-  - name: color-red-90
-    value: '{!color-red-90}'
-    meta:
-      friendlyName: Red 90
-
-  - name: color-orange-50
-    value: '{!color-orange-50}'
-    meta:
-      friendlyName: Orange 50
-  - name: color-orange-60
-    value: '{!color-orange-60}'
-    meta:
-      friendlyName: Orange 60
-  - name: color-orange-70
-    value: '{!color-orange-70}'
-    meta:
-      friendlyName: Orange 70
-  - name: color-orange-80
-    value: '{!color-orange-80}'
-    meta:
-      friendlyName: Orange 80
-  - name: color-orange-90
-    value: '{!color-orange-90}'
-    meta:
-      friendlyName: Orange 90
 
   - name: color-gray-10
     value: '{!color-gray-10}'
