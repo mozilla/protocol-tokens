@@ -16,7 +16,11 @@ props:
     value: '{!spacing-lg}'
   - name: spacing-xl
     value: '{!spacing-xl}'
+  - name: spacing-2xl
+    value: '{!spacing-2xl}'
 
+  - name: layout-2xs
+    value: '{!layout-2xs}'
   - name: layout-xs
     value: '{!layout-xs}'
   - name: layout-sm
@@ -25,3 +29,7 @@ props:
     value: '{!layout-md}'
   - name: layout-lg
     value: '{!layout-lg}'
+  - name: layout-xl
+    value: '{!layout-xl}'
+  - name: layout-2xl
+    value: '{!layout-2xl}'
