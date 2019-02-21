@@ -13,6 +13,10 @@ props:
     value: '{!color-white}'
     meta:
       friendlyName: White
+  - name: color-off-black
+    value: '{!color-off-black}'
+    meta:
+      friendlyName: Off-Black
   
   - name: color-pink-5
     value: '{!color-pink-5}'

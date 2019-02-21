@@ -2,8 +2,9 @@ aliases:
 
   # Colors
 
-  color-black: '#20123a'
+  color-black: '#000000'
   color-white: '#ffffff'
+  color-off-black: '#20123a'
   
   color-pink-5: '#ffdef0'
   color-pink-10: '#ffb4db'
