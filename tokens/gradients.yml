@@ -6,24 +6,25 @@ global:
 imports:
   - ./_aliases.yml
 props:
-  - name: gradient-greyscale
-    value: 'linear-gradient(90deg, {!color-black}, {!color-white})'
+  - name: gradient-warm
+    value: 'linear-gradient(45deg, #F5156C, #FF3750, #FF4F5E, #FF7139, #FF980E)'
     meta:
-      friendlyName: Greyscale Gradient
-      type: 'linear'
-      angle: '90deg'
-      value: '#000000, #FFFFFF'
-  - name: gradient-focus
-    value: 'linear-gradient(45deg, #4A1475, #671878, #C42482, #FF271D)'
-    meta:
-      friendlyName: Firefox Focus Gradient
+      friendlyName: Warm Gradient
       type: 'linear'
       angle: '45deg'
-      value: '#4A1475, #671878, #C42482, #FF271D'
-  - name: gradient-helloworld
-    value: 'radial-gradient(33deg, #4A1475, #671878, #C42482, #FF271D)'
+      value: '#F5156C, #FF3750, #FF4F5E, #FF7139, #FF980E'
+  - name: gradient-cool
+    value: 'linear-gradient(90deg, #3A8EE6, #9059FF, #C139E6)'
     meta:
-      friendlyName: Hello World Gradient
-      type: 'radial'
-      angle: '33deg'
-      value: '#4A1475, #671878, #C42482'
+      friendlyName: Cool Gradient
+      type: 'linear'
+      angle: '90deg'
+      value: '#3A8EE6, #9059FF, #C139E6'
+  - name: gradient-highlight
+    value: 'linear-gradient(90deg, #FFFFFF, #FFF44F)'
+    meta:
+      friendlyName: Highlight Gradient
+      type: 'linear'
+      angle: '90deg'
+      value: '#FFFFFF, #FFF44F'
+  
