@@ -87,6 +87,10 @@ props:
     value: '{!color-red-60}'
     meta:
       friendlyName: Red 60
+  - name: color-red-60-a30
+    value: '{!color-red-60-a30}'
+    meta:
+      friendlyName: Red 60 A30
   - name: color-red-70
     value: '{!color-red-70}'
     meta:
@@ -169,6 +173,10 @@ props:
     value: '{!color-yellow-60}'
     meta:
       friendlyName: Yellow 60
+  - name: color-yellow-60-a30
+    value: '{!color-yellow-60-a30}'
+    meta:
+      friendlyName: Yellow 60 A30
   - name: color-yellow-70
     value: '{!color-yellow-70}'
     meta:
@@ -355,6 +363,26 @@ props:
     value: '{!color-gray-10}'
     meta:
       friendlyName: Gray 10
+  - name: color-gray-10-a10
+    value: '{!color-gray-10-a10}'
+    meta:
+      friendlyName: Gray 10 A10
+  - name: color-gray-10-a20
+    value: '{!color-gray-10-a20}'
+    meta:
+      friendlyName: Gray 10 A20
+  - name: color-gray-10-a40
+    value: '{!color-gray-10-a40}'
+    meta:
+      friendlyName: Gray 10 A40
+  - name: color-gray-10-a60
+    value: '{!color-gray-10-a60}'
+    meta:
+      friendlyName: Gray 10 A60
+  - name: color-gray-10-a80
+    value: '{!color-gray-10-a80}'
+    meta:
+      friendlyName: Gray 10 A80
   - name: color-gray-20
     value: '{!color-gray-20}'
     meta:
@@ -387,6 +415,46 @@ props:
     value: '{!color-gray-90}'
     meta:
       friendlyName: Gray 90
+  - name: color-gray-90-a05
+    value: '{!color-gray-90-a05}'
+    meta:
+      friendlyName: Gray 90 A05
+  - name: color-gray-90-a10
+    value: '{!color-gray-90-a10}'
+    meta:
+      friendlyName: Gray 90 A10
+  - name: color-gray-90-a20
+    value: '{!color-gray-90-a20}'
+    meta:
+      friendlyName: Gray 90 A20
+  - name: color-gray-90-a30
+    value: '{!color-gray-90-a30}'
+    meta:
+      friendlyName: Gray 90 A30
+  - name: color-gray-90-a40
+    value: '{!color-gray-90-a40}'
+    meta:
+      friendlyName: Gray 90 A40
+  - name: color-gray-90-a50
+    value: '{!color-gray-90-a50}'
+    meta:
+      friendlyName: Gray 90 A50
+  - name: color-gray-90-a60
+    value: '{!color-gray-90-a60}'
+    meta:
+      friendlyName: Gray 90 A60
+  - name: color-gray-90-a70
+    value: '{!color-gray-90-a70}'
+    meta:
+      friendlyName: Gray 90 A70
+  - name: color-gray-90-a80
+    value: '{!color-gray-90-a80}'
+    meta:
+      friendlyName: Gray 90 A80
+  - name: color-gray-90-a90
+    value: '{!color-gray-90-a90}'
+    meta:
+      friendlyName: Gray 90 A90
 
   # Link Colors
 

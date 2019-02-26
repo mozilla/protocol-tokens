@@ -13,9 +13,9 @@ theo.registerFormat('colors.soc', `<?xml version="1.0" encoding="UTF-8"?>
   xmlns:svg="http://www.w3.org/2000/svg"
   xmlns:ooo="http://openoffice.org/2004/office">
   {{#each props as |prop|}}
-  {{#startsWith prop.value 'rgba'}}{{else}}{{#if prop.comment}}<!-- {{{prop.comment}}} -->{{/if}}
-  <draw:color draw:name="{{prop.name}}" draw:color="{{prop.value}}" />{{/startsWith}}
-  {{/each}}
+{{#startsWith prop.value 'rgba'}}{{else}}{{#if prop.comment}}  <!-- {{{prop.comment}}} -->
+{{/if}}  <draw:color draw:name="{{prop.name}}" draw:color="{{prop.value}}" />{{/startsWith}}
+{{/each}}
 </ooo:color-table>
 `);
 
