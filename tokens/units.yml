@@ -18,38 +18,6 @@ props:
     value: '{!spacing-xl}'
   - name: spacing-2xl
     value: '{!spacing-2xl}'
-  - name: spacing-base
-    value: '{!spacing-base}'
-
-  - name: padding-xs
-    value: '{!padding-xs}'
-  - name: padding-sm
-    value: '{!padding-sm}'
-  - name: padding-md
-    value: '{!padding-md}'
-  - name: padding-lg
-    value: '{!padding-lg}'
-  - name: padding-xl
-    value: '{!padding-xl}'
-  - name: padding-2xl
-    value: '{!padding-2xl}'
-  - name: padding-base
-    value: '{!padding-base}'
-
-  - name: margin-xs
-    value: '{!margin-xs}'
-  - name: margin-sm
-    value: '{!margin-sm}'
-  - name: margin-md
-    value: '{!margin-md}'
-  - name: margin-lg
-    value: '{!margin-lg}'
-  - name: margin-xl
-    value: '{!margin-xl}'
-  - name: margin-2xl
-    value: '{!margin-2xl}'
-  - name: margin-base
-    value: '{!margin-base}'
 
   - name: layout-2xs
     value: '{!layout-2xs}'
@@ -65,5 +33,3 @@ props:
     value: '{!layout-xl}'
   - name: layout-2xl
     value: '{!layout-2xl}'
-  - name: layout-base
-    value: '{!layout-base}'
