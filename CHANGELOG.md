@@ -2,8 +2,8 @@
 
 ### Features
 
-* **units:** (breaking) Removes padding, margin, spacing-base, and layout-base. 
-* **colors:** (breaking) Updated colors and gradients. Removes Mozilla brand colors, magenta, 
+* **units:** (breaking) Removes padding, margin, spacing-base, and layout-base. (#35)
+* **colors:** (breaking) Updated colors and gradients. Removes Mozilla brand colors, magenta, teal. Adds pink and violet hues. Adds a lighter shade for each color. (#30)
 * **gulp:** Update to Gulp 4.0.0 and Theo 8.1.1
 
 # 2.1.0 (2018-11-19)
