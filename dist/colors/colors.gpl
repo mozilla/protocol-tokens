@@ -1,0 +1,69 @@
+GIMP Palette
+Name: Protocol Colors
+0 0 0 Brand Primary 
+255 255 255 Brand Secondary 
+0 255 255 Brand Neon Blue 
+255 244 79 Brand Lemon Yellow 
+255 79 94 Brand Warm Red 
+84 255 189 Brand Neon Green 
+110 0 139 Brand Dark Purple 
+0 94 94 Brand Dark Green 
+0 69 139 Brand Dark Blue 
+0 0 0 Color Black 
+255 255 255 Color White 
+255 26 217 Color Magenta 50 
+237 0 181 Color Magenta 60 
+181 0 127 Color Magenta 70 
+125 0 79 Color Magenta 80 
+68 0 39 Color Magenta 90 
+192 105 255 Color Purple 30 
+173 59 255 Color Purple 40 
+148 0 255 Color Purple 50 
+128 0 215 Color Purple 60 
+98 0 164 Color Purple 70 
+68 0 113 Color Purple 80 
+37 0 62 Color Purple 90 
+69 161 255 Color Blue 40 
+10 132 255 Color Blue 50 
+0 96 223 Color Blue 60 
+0 62 170 Color Blue 70 
+0 34 117 Color Blue 80 
+0 15 64 Color Blue 90 
+0 254 255 Color Teal 50 
+0 200 215 Color Teal 60 
+0 142 164 Color Teal 70 
+0 90 113 Color Teal 80 
+0 45 62 Color Teal 90 
+48 230 11 Color Green 50 
+18 188 0 Color Green 60 
+5 139 0 Color Green 70 
+0 101 4 Color Green 80 
+0 55 6 Color Green 90 
+255 233 0 Color Yellow 50 
+215 182 0 Color Yellow 60 
+164 127 0 Color Yellow 70 
+113 81 0 Color Yellow 80 
+62 40 0 Color Yellow 90 
+255 0 57 Color Red 50 
+215 0 34 Color Red 60 
+164 0 15 Color Red 70 
+90 0 2 Color Red 80 
+62 2 0 Color Red 90 
+255 148 0 Color Orange 50 
+215 110 0 Color Orange 60 
+164 73 0 Color Orange 70 
+113 43 0 Color Orange 80 
+62 19 0 Color Orange 90 
+249 249 250 Color Gray 10 
+237 237 240 Color Gray 20 
+215 215 219 Color Gray 30 
+177 177 179 Color Gray 40 
+115 115 115 Color Gray 50 
+74 74 79 Color Gray 60 
+56 56 61 Color Gray 70 
+42 42 46 Color Gray 80 
+12 12 13 Color Gray 90 
+0 96 223 Color Link 
+0 62 170 Color Link Hover 
+128 0 215 Color Link Visited 
+98 0 164 Color Link Visited Hover
