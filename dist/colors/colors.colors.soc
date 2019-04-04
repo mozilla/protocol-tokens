@@ -6,137 +6,195 @@
   xmlns:svg="http://www.w3.org/2000/svg"
   xmlns:ooo="http://openoffice.org/2004/office">
   
-  <draw:color draw:name="brand-primary" draw:color="#000000" />
-  
-  <draw:color draw:name="brand-secondary" draw:color="#ffffff" />
-  
-  <draw:color draw:name="brand-neon-blue" draw:color="#00ffff" />
-  
-  <draw:color draw:name="brand-lemon-yellow" draw:color="#fff44f" />
-  
-  <draw:color draw:name="brand-warm-red" draw:color="#ff4f5e" />
-  
-  <draw:color draw:name="brand-neon-green" draw:color="#54ffbd" />
-  
-  <draw:color draw:name="brand-dark-purple" draw:color="#6e008b" />
-  
-  <draw:color draw:name="brand-dark-green" draw:color="#005e5e" />
-  
-  <draw:color draw:name="brand-dark-blue" draw:color="#00458b" />
-  
   <draw:color draw:name="color-black" draw:color="#000000" />
   
   <draw:color draw:name="color-white" draw:color="#ffffff" />
   
-  <draw:color draw:name="color-magenta-50" draw:color="#ff1ad9" />
+  <draw:color draw:name="color-off-black" draw:color="#20123a" />
   
-  <draw:color draw:name="color-magenta-60" draw:color="#ed00b5" />
+  <draw:color draw:name="color-pink-5" draw:color="#ffdef0" />
   
-  <draw:color draw:name="color-magenta-70" draw:color="#b5007f" />
+  <draw:color draw:name="color-pink-10" draw:color="#ffb4db" />
   
-  <draw:color draw:name="color-magenta-80" draw:color="#7d004f" />
+  <draw:color draw:name="color-pink-20" draw:color="#ff8ac5" />
   
-  <draw:color draw:name="color-magenta-90" draw:color="#440027" />
+  <draw:color draw:name="color-pink-30" draw:color="#ff6bba" />
   
-  <draw:color draw:name="color-purple-30" draw:color="#c069ff" />
+  <draw:color draw:name="color-pink-40" draw:color="#ff4aa2" />
   
-  <draw:color draw:name="color-purple-40" draw:color="#ad3bff" />
+  <draw:color draw:name="color-pink-50" draw:color="#ff298A" />
   
-  <draw:color draw:name="color-purple-50" draw:color="#9400ff" />
+  <draw:color draw:name="color-pink-60" draw:color="#e31587" />
   
-  <draw:color draw:name="color-purple-60" draw:color="#8000d7" />
+  <draw:color draw:name="color-pink-70" draw:color="#c60084" />
   
-  <draw:color draw:name="color-purple-70" draw:color="#6200a4" />
+  <draw:color draw:name="color-pink-80" draw:color="#7f145b" />
   
-  <draw:color draw:name="color-purple-80" draw:color="#440071" />
+  <draw:color draw:name="color-pink-90" draw:color="#50134b" />
   
-  <draw:color draw:name="color-purple-90" draw:color="#25003e" />
+  <draw:color draw:name="color-red-5" draw:color="#ffdfe7" />
   
-  <draw:color draw:name="color-blue-40" draw:color="#45a1ff" />
+  <draw:color draw:name="color-red-10" draw:color="#ffbdc5" />
   
-  <draw:color draw:name="color-blue-50" draw:color="#0a84ff" />
+  <draw:color draw:name="color-red-20" draw:color="#ff9aa2" />
   
-  <draw:color draw:name="color-blue-60" draw:color="#0060df" />
+  <draw:color draw:name="color-red-30" draw:color="#ff848b" />
   
-  <draw:color draw:name="color-blue-70" draw:color="#003eaa" />
+  <draw:color draw:name="color-red-40" draw:color="#ff6a75" />
   
-  <draw:color draw:name="color-blue-80" draw:color="#002275" />
+  <draw:color draw:name="color-red-50" draw:color="#ff4f5e" />
   
-  <draw:color draw:name="color-blue-90" draw:color="#000f40" />
+  <draw:color draw:name="color-red-60" draw:color="#e22850" />
   
-  <draw:color draw:name="color-teal-50" draw:color="#00feff" />
+  <draw:color draw:name="color-red-70" draw:color="#c50042" />
   
-  <draw:color draw:name="color-teal-60" draw:color="#00c8d7" />
+  <draw:color draw:name="color-red-80" draw:color="#810220" />
   
-  <draw:color draw:name="color-teal-70" draw:color="#008ea4" />
+  <draw:color draw:name="color-red-90" draw:color="#440306" />
   
-  <draw:color draw:name="color-teal-80" draw:color="#005a71" />
+  <draw:color draw:name="color-orange-5" draw:color="#fff4de" />
   
-  <draw:color draw:name="color-teal-90" draw:color="#002d3e" />
+  <draw:color draw:name="color-orange-10" draw:color="#ffd5b2" />
   
-  <draw:color draw:name="color-green-50" draw:color="#30e60b" />
+  <draw:color draw:name="color-orange-20" draw:color="#ffb587" />
   
-  <draw:color draw:name="color-green-60" draw:color="#12bc00" />
+  <draw:color draw:name="color-orange-30" draw:color="#ffa266" />
   
-  <draw:color draw:name="color-green-70" draw:color="#058b00" />
+  <draw:color draw:name="color-orange-40" draw:color="#ff8a50" />
   
-  <draw:color draw:name="color-green-80" draw:color="#006504" />
+  <draw:color draw:name="color-orange-50" draw:color="#ff7139" />
   
-  <draw:color draw:name="color-green-90" draw:color="#003706" />
+  <draw:color draw:name="color-orange-60" draw:color="#e25920" />
   
-  <draw:color draw:name="color-yellow-50" draw:color="#ffe900" />
+  <draw:color draw:name="color-orange-70" draw:color="#cc3d00" />
   
-  <draw:color draw:name="color-yellow-60" draw:color="#d7b600" />
+  <draw:color draw:name="color-orange-80" draw:color="#9e280b" />
   
-  <draw:color draw:name="color-yellow-70" draw:color="#a47f00" />
+  <draw:color draw:name="color-orange-90" draw:color="#7c1504" />
   
-  <draw:color draw:name="color-yellow-80" draw:color="#715100" />
+  <draw:color draw:name="color-yellow-5" draw:color="#ffffcc" />
   
-  <draw:color draw:name="color-yellow-90" draw:color="#3e2800" />
+  <draw:color draw:name="color-yellow-10" draw:color="#ffff98" />
   
-  <draw:color draw:name="color-red-50" draw:color="#ff0039" />
+  <draw:color draw:name="color-yellow-20" draw:color="#ffea80" />
   
-  <draw:color draw:name="color-red-60" draw:color="#d70022" />
+  <draw:color draw:name="color-yellow-30" draw:color="#ffd567" />
   
-  <draw:color draw:name="color-red-70" draw:color="#a4000f" />
+  <draw:color draw:name="color-yellow-40" draw:color="#ffbd4f" />
   
-  <draw:color draw:name="color-red-80" draw:color="#5a0002" />
+  <draw:color draw:name="color-yellow-50" draw:color="#ffa436" />
   
-  <draw:color draw:name="color-red-90" draw:color="#3e0200" />
+  <draw:color draw:name="color-yellow-60" draw:color="#e27f2e" />
   
-  <draw:color draw:name="color-orange-50" draw:color="#ff9400" />
+  <draw:color draw:name="color-yellow-70" draw:color="#c45a27" />
   
-  <draw:color draw:name="color-orange-60" draw:color="#d76e00" />
+  <draw:color draw:name="color-yellow-80" draw:color="#a7341f" />
   
-  <draw:color draw:name="color-orange-70" draw:color="#a44900" />
+  <draw:color draw:name="color-yellow-90" draw:color="#960e18" />
   
-  <draw:color draw:name="color-orange-80" draw:color="#712b00" />
+  <draw:color draw:name="color-green-5" draw:color="#e3fff3" />
   
-  <draw:color draw:name="color-orange-90" draw:color="#3e1300" />
+  <draw:color draw:name="color-green-10" draw:color="#d1ffee" />
+  
+  <draw:color draw:name="color-green-20" draw:color="#b3ffe3" />
+  
+  <draw:color draw:name="color-green-30" draw:color="#88ffd1" />
+  
+  <draw:color draw:name="color-green-40" draw:color="#54ffbd" />
+  
+  <draw:color draw:name="color-green-50" draw:color="#3fe1b0" />
+  
+  <draw:color draw:name="color-green-60" draw:color="#2ac3a2" />
+  
+  <draw:color draw:name="color-green-70" draw:color="#008787" />
+  
+  <draw:color draw:name="color-green-80" draw:color="#005e5e" />
+  
+  <draw:color draw:name="color-green-90" draw:color="#08403f" />
+  
+  <draw:color draw:name="color-blue-5" draw:color="#aaf2ff" />
+  
+  <draw:color draw:name="color-blue-10" draw:color="#80ebff" />
+  
+  <draw:color draw:name="color-blue-20" draw:color="#00ddff" />
+  
+  <draw:color draw:name="color-blue-30" draw:color="#00b3f4" />
+  
+  <draw:color draw:name="color-blue-40" draw:color="#0090ed" />
+  
+  <draw:color draw:name="color-blue-50" draw:color="#0060df" />
+  
+  <draw:color draw:name="color-blue-60" draw:color="#0250bb" />
+  
+  <draw:color draw:name="color-blue-70" draw:color="#054096" />
+  
+  <draw:color draw:name="color-blue-80" draw:color="#073072" />
+  
+  <draw:color draw:name="color-blue-90" draw:color="#09204d" />
+  
+  <draw:color draw:name="color-violet-5" draw:color="#e7dfff" />
+  
+  <draw:color draw:name="color-violet-10" draw:color="#d9bfff" />
+  
+  <draw:color draw:name="color-violet-20" draw:color="#cb9eff" />
+  
+  <draw:color draw:name="color-violet-30" draw:color="#c689ff" />
+  
+  <draw:color draw:name="color-violet-40" draw:color="#ab71ff" />
+  
+  <draw:color draw:name="color-violet-50" draw:color="#9059ff" />
+  
+  <draw:color draw:name="color-violet-60" draw:color="#7542e5" />
+  
+  <draw:color draw:name="color-violet-70" draw:color="#592acb" />
+  
+  <draw:color draw:name="color-violet-80" draw:color="#45278d" />
+  
+  <draw:color draw:name="color-violet-90" draw:color="#321c64" />
+  
+  <draw:color draw:name="color-purple-5" draw:color="#f7e2ff" />
+  
+  <draw:color draw:name="color-purple-10" draw:color="#f6b8ff" />
+  
+  <draw:color draw:name="color-purple-20" draw:color="#f68fff" />
+  
+  <draw:color draw:name="color-purple-30" draw:color="#f770ff" />
+  
+  <draw:color draw:name="color-purple-40" draw:color="#d74cf0" />
+  
+  <draw:color draw:name="color-purple-50" draw:color="#b833e1" />
+  
+  <draw:color draw:name="color-purple-60" draw:color="#952bb9" />
+  
+  <draw:color draw:name="color-purple-70" draw:color="#722291" />
+  
+  <draw:color draw:name="color-purple-80" draw:color="#4e1a69" />
+  
+  <draw:color draw:name="color-purple-90" draw:color="#2b1141" />
   
   <draw:color draw:name="color-gray-10" draw:color="#f9f9fa" />
   
   <draw:color draw:name="color-gray-20" draw:color="#ededf0" />
   
-  <draw:color draw:name="color-gray-30" draw:color="#d7d7db" />
+  <draw:color draw:name="color-gray-30" draw:color="#cdcdd4" />
   
-  <draw:color draw:name="color-gray-40" draw:color="#b1b1b3" />
+  <draw:color draw:name="color-gray-40" draw:color="#b1b1bc" />
   
-  <draw:color draw:name="color-gray-50" draw:color="#737373" />
+  <draw:color draw:name="color-gray-50" draw:color="#9595a3" />
   
-  <draw:color draw:name="color-gray-60" draw:color="#4a4a4f" />
+  <draw:color draw:name="color-gray-60" draw:color="#7a7a8b" />
   
-  <draw:color draw:name="color-gray-70" draw:color="#38383d" />
+  <draw:color draw:name="color-gray-70" draw:color="#5e5e72" />
   
-  <draw:color draw:name="color-gray-80" draw:color="#2a2a2e" />
+  <draw:color draw:name="color-gray-80" draw:color="#42425a" />
   
-  <draw:color draw:name="color-gray-90" draw:color="#0c0c0d" />
+  <draw:color draw:name="color-gray-90" draw:color="#202340" />
   
   <draw:color draw:name="color-link" draw:color="#0060df" />
   
-  <draw:color draw:name="color-link-hover" draw:color="#003eaa" />
+  <draw:color draw:name="color-link-hover" draw:color="#0250bb" />
   
-  <draw:color draw:name="color-link-visited" draw:color="#8000d7" />
+  <draw:color draw:name="color-link-visited" draw:color="#b833e1" />
   
-  <draw:color draw:name="color-link-visited-hover" draw:color="#6200a4" />
+  <draw:color draw:name="color-link-visited-hover" draw:color="#952bb9" />
 </ooo:color-table>
