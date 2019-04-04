@@ -1,7 +1,6 @@
 aliases:
 
   # Colors
-
   color-black: '#000000'
   color-white: '#ffffff'
   color-off-black: '#20123a'
@@ -11,7 +10,7 @@ aliases:
   color-pink-20: '#ff8ac5'
   color-pink-30: '#ff6bba'
   color-pink-40: '#ff4aa2'
-  color-pink-50: '#ff298A'
+  color-pink-50: '#ff298a'
   color-pink-60: '#e31587'
   color-pink-70: '#c60084'
   color-pink-80: '#7f145b'
@@ -105,7 +104,6 @@ aliases:
   color-gray-90: '#202340'
 
   # Link Colors
-
   color-link: '{!color-blue-50}'
   color-link-hover: '{!color-blue-60}'
   color-link-visited: '{!color-purple-50}'

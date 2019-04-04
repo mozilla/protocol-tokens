@@ -19,6 +19,17 @@ theo.registerFormat('colors.soc', `<?xml version="1.0" encoding="UTF-8"?>
 </ooo:color-table>
 `);
 
+// Sketch
+theo.registerFormat('sketch.json', `[
+ {{~#each props as |prop|}}
+ {{~#if prop.comment}}// {{{prop.comment}}}{{/if}}
+  {
+    "name": "{{prop.name}}",
+    "value": "{{prop.value}}"
+  }{{#unless @last}},{{/unless}}{{/each}}
+]
+`);
+
 function formatGPL(result) {
     return result.get('props').map(prop => {
         return `${prop.get('value').replace('rgb(', '').replace(')', '')} ${prop.get('name').replace(/-/g, ' ')} \n`;
@@ -52,7 +63,8 @@ const colorsFormats = [
     'ios.json',
     'less',
     'scss',
-    'colors.soc'
+    'colors.soc',
+    'sketch.json'
 ];
 
 function raw() {

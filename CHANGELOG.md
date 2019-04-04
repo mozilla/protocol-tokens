@@ -1,3 +1,7 @@
+# HEAD
+
+* **colors** Adds a colors-sketch.json file that is used by the sketch plugin. This file is organized by color weight and contains less colors than the main json file. (#40)
+
 # 3.0.0 (2019-03-25)
 
 ### Features
