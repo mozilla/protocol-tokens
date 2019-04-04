@@ -1,12 +1,12 @@
 [
   {
     "name": "font-stack-sans",
-    "value": "&#x27;Open Sans&#x27;, X-LocaleSpecific, sans-serif",
+    "value": "sharpsans, &#x27;Inter&#x27;, X-LocaleSpecific, sans-serif",
     "token": "$font-stack-sans"
   },
   {
     "name": "font-stack-serif",
-    "value": "&#x27;Zilla Slab&#x27;, &#x27;Open Sans&#x27;, X-LocaleSpecific, serif",
+    "value": "&#x27;Zilla Slab&#x27;, &#x27;Inter&#x27;, X-LocaleSpecific, serif",
     "token": "$font-stack-serif"
   },
   {

@@ -1,3 +1,7 @@
+# HEAD
+
+* **fontstack** Adds Inter and Sharp Sans to the font stack. Creates a font-stack-body variable
+
 # 3.0.0 (2019-03-25)
 
 ### Features
