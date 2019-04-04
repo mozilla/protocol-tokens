@@ -668,5 +668,15 @@
     "name": "layout-2xl",
     "value": "160px",
     "token": "$layout-2xl"
+  },
+  {
+    "name": "shadow-full",
+    "value": "0 8 24 rgba(0, 0, .1)",
+    "token": "$shadow-full"
+  },
+  {
+    "name": "shadow-half",
+    "value": "0 4 12 rgba(0, 0, .1)",
+    "token": "$shadow-half"
   }
 ]

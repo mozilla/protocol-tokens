@@ -5,3 +5,4 @@ imports:
   - ./font-stack.yml
   - ./gradients.yml
   - ./units.yml
+  - ./shadows.yml

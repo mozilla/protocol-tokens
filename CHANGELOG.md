@@ -1,3 +1,7 @@
+# HEAD
+
+* **shadows:** Added shadow tokens (#46)
+
 # 3.0.0 (2019-03-25)
 
 ### Features

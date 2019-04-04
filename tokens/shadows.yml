@@ -1,0 +1,22 @@
+global:
+  type: string
+  category: shadows
+props:
+  - name: shadow-full
+    value: '0 8 24 rgba(0, 0, .1)'
+    meta:
+      x: 0
+      y: 8
+      blur: 24
+      spread: 0
+      color: '#0000001a'
+      inset: false
+  - name: shadow-half
+    value: '0 4 12 rgba(0, 0, .1)'
+    meta:
+      x: 0
+      y: 4
+      blur: 12
+      spread: 0
+      color: '#0000001a'
+      inset: false

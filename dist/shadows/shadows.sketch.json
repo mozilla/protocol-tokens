@@ -1,0 +1,20 @@
+[
+  {
+    "name": "shadow-full",
+    "x": 0,
+    "y": 8,
+    "blur": 24,
+    "spread": 0,
+    "color": "#0000001a",
+    "inset": false
+  },
+  {
+    "name": "shadow-half",
+    "x": 0,
+    "y": 4,
+    "blur": 12,
+    "spread": 0,
+    "color": "#0000001a",
+    "inset": false
+  }
+]

@@ -10,6 +10,7 @@ const colors = require('./colors');
 const gradients = require('./gradients');
 const fontStack = require('./font-stack');
 const units = require('./units');
+const shadows = require('./shadows');
 
 // Universal Formats
 theo.registerFormat('json', `[
@@ -35,7 +36,7 @@ function clean(cb) {
 
 const build = gulp.series(
     clean,
-    gulp.parallel(index, mediaQueries, content, colors, gradients, fontStack, units),
+    gulp.parallel(index, mediaQueries, content, colors, gradients, fontStack, units, shadows),
 );
 
 gulp.task('default', build);
