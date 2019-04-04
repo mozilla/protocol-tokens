@@ -30,81 +30,6 @@
     "token": "$spacing-2xl"
   },
   {
-    "name": "spacing-base",
-    "value": "16px",
-    "token": "$spacing-base"
-  },
-  {
-    "name": "padding-xs",
-    "value": "4px",
-    "token": "$padding-xs"
-  },
-  {
-    "name": "padding-sm",
-    "value": "8px",
-    "token": "$padding-sm"
-  },
-  {
-    "name": "padding-md",
-    "value": "16px",
-    "token": "$padding-md"
-  },
-  {
-    "name": "padding-lg",
-    "value": "24px",
-    "token": "$padding-lg"
-  },
-  {
-    "name": "padding-xl",
-    "value": "32px",
-    "token": "$padding-xl"
-  },
-  {
-    "name": "padding-2xl",
-    "value": "48px",
-    "token": "$padding-2xl"
-  },
-  {
-    "name": "padding-base",
-    "value": "16px",
-    "token": "$padding-base"
-  },
-  {
-    "name": "margin-xs",
-    "value": "4px",
-    "token": "$margin-xs"
-  },
-  {
-    "name": "margin-sm",
-    "value": "8px",
-    "token": "$margin-sm"
-  },
-  {
-    "name": "margin-md",
-    "value": "16px",
-    "token": "$margin-md"
-  },
-  {
-    "name": "margin-lg",
-    "value": "24px",
-    "token": "$margin-lg"
-  },
-  {
-    "name": "margin-xl",
-    "value": "32px",
-    "token": "$margin-xl"
-  },
-  {
-    "name": "margin-2xl",
-    "value": "48px",
-    "token": "$margin-2xl"
-  },
-  {
-    "name": "margin-base",
-    "value": "16px",
-    "token": "$margin-base"
-  },
-  {
     "name": "layout-2xs",
     "value": "16px",
     "token": "$layout-2xs"
@@ -138,10 +63,5 @@
     "name": "layout-2xl",
     "value": "160px",
     "token": "$layout-2xl"
-  },
-  {
-    "name": "layout-base",
-    "value": "48px",
-    "token": "$layout-base"
   }
 ]

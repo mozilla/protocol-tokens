@@ -3,87 +3,6 @@
     {
       "type": "color",
       "category": "background-color",
-      "name": "brandPrimary",
-      "value": "#000000",
-      "meta": {
-        "friendlyName": "Black"
-      }
-    },
-    {
-      "type": "color",
-      "category": "background-color",
-      "name": "brandSecondary",
-      "value": "#ffffff",
-      "meta": {
-        "friendlyName": "White"
-      }
-    },
-    {
-      "type": "color",
-      "category": "background-color",
-      "name": "brandNeonBlue",
-      "value": "#00ffff",
-      "meta": {
-        "friendlyName": "Neon Blue"
-      }
-    },
-    {
-      "type": "color",
-      "category": "background-color",
-      "name": "brandLemonYellow",
-      "value": "#fff44f",
-      "meta": {
-        "friendlyName": "Lemon Yellow"
-      }
-    },
-    {
-      "type": "color",
-      "category": "background-color",
-      "name": "brandWarmRed",
-      "value": "#ff4f5e",
-      "meta": {
-        "friendlyName": "Warm Red"
-      }
-    },
-    {
-      "type": "color",
-      "category": "background-color",
-      "name": "brandNeonGreen",
-      "value": "#54ffbd",
-      "meta": {
-        "friendlyName": "Neon Green"
-      }
-    },
-    {
-      "type": "color",
-      "category": "background-color",
-      "name": "brandDarkPurple",
-      "value": "#6e008b",
-      "meta": {
-        "friendlyName": "Dark Purple"
-      }
-    },
-    {
-      "type": "color",
-      "category": "background-color",
-      "name": "brandDarkGreen",
-      "value": "#005e5e",
-      "meta": {
-        "friendlyName": "Dark Green"
-      }
-    },
-    {
-      "type": "color",
-      "category": "background-color",
-      "name": "brandDarkBlue",
-      "value": "#00458b",
-      "meta": {
-        "friendlyName": "Dark Blue"
-      }
-    },
-    {
-      "type": "color",
-      "category": "background-color",
       "name": "colorBlack",
       "value": "#000000",
       "meta": {
@@ -102,305 +21,152 @@
     {
       "type": "color",
       "category": "background-color",
-      "name": "colorMagenta50",
-      "value": "#ff1ad9",
+      "name": "colorOffBlack",
+      "value": "#20123a",
       "meta": {
-        "friendlyName": "Magenta 50"
+        "friendlyName": "Off-Black"
       }
     },
     {
       "type": "color",
       "category": "background-color",
-      "name": "colorMagenta60",
-      "value": "#ed00b5",
+      "name": "colorPink5",
+      "value": "#ffdef0",
       "meta": {
-        "friendlyName": "Magenta 60"
+        "friendlyName": "Pink 5"
       }
     },
     {
       "type": "color",
       "category": "background-color",
-      "name": "colorMagenta70",
-      "value": "#b5007f",
+      "name": "colorPink10",
+      "value": "#ffb4db",
       "meta": {
-        "friendlyName": "Magenta 70"
+        "friendlyName": "Pink 10"
       }
     },
     {
       "type": "color",
       "category": "background-color",
-      "name": "colorMagenta80",
-      "value": "#7d004f",
+      "name": "colorPink20",
+      "value": "#ff8ac5",
       "meta": {
-        "friendlyName": "Magenta 80"
+        "friendlyName": "Pink 20"
       }
     },
     {
       "type": "color",
       "category": "background-color",
-      "name": "colorMagenta90",
-      "value": "#440027",
+      "name": "colorPink30",
+      "value": "#ff6bba",
       "meta": {
-        "friendlyName": "Magenta 90"
+        "friendlyName": "Pink 30"
       }
     },
     {
       "type": "color",
       "category": "background-color",
-      "name": "colorPurple30",
-      "value": "#c069ff",
+      "name": "colorPink40",
+      "value": "#ff4aa2",
       "meta": {
-        "friendlyName": "Purple 30"
+        "friendlyName": "Pink 40"
       }
     },
     {
       "type": "color",
       "category": "background-color",
-      "name": "colorPurple40",
-      "value": "#ad3bff",
+      "name": "colorPink50",
+      "value": "#ff298A",
       "meta": {
-        "friendlyName": "Purple 40"
+        "friendlyName": "Pink 50"
       }
     },
     {
       "type": "color",
       "category": "background-color",
-      "name": "colorPurple50",
-      "value": "#9400ff",
+      "name": "colorPink60",
+      "value": "#e31587",
       "meta": {
-        "friendlyName": "Purple 50"
+        "friendlyName": "Pink 60"
       }
     },
     {
       "type": "color",
       "category": "background-color",
-      "name": "colorPurple60",
-      "value": "#8000d7",
+      "name": "colorPink70",
+      "value": "#c60084",
       "meta": {
-        "friendlyName": "Purple 60"
+        "friendlyName": "Pink 70"
       }
     },
     {
       "type": "color",
       "category": "background-color",
-      "name": "colorPurple70",
-      "value": "#6200a4",
+      "name": "colorPink80",
+      "value": "#7f145b",
       "meta": {
-        "friendlyName": "Purple 70"
+        "friendlyName": "Pink 80"
       }
     },
     {
       "type": "color",
       "category": "background-color",
-      "name": "colorPurple80",
-      "value": "#440071",
+      "name": "colorPink90",
+      "value": "#50134b",
       "meta": {
-        "friendlyName": "Purple 80"
+        "friendlyName": "Pink 90"
       }
     },
     {
       "type": "color",
       "category": "background-color",
-      "name": "colorPurple90",
-      "value": "#25003e",
+      "name": "colorRed5",
+      "value": "#ffdfe7",
       "meta": {
-        "friendlyName": "Purple 90"
+        "friendlyName": "Red 5"
       }
     },
     {
       "type": "color",
       "category": "background-color",
-      "name": "colorBlue40",
-      "value": "#45a1ff",
+      "name": "colorRed10",
+      "value": "#ffbdc5",
       "meta": {
-        "friendlyName": "Blue 40"
+        "friendlyName": "Red 10"
       }
     },
     {
       "type": "color",
       "category": "background-color",
-      "name": "colorBlue50",
-      "value": "#0a84ff",
+      "name": "colorRed20",
+      "value": "#ff9aa2",
       "meta": {
-        "friendlyName": "Blue 50"
+        "friendlyName": "Red 20"
       }
     },
     {
       "type": "color",
       "category": "background-color",
-      "name": "colorBlue60",
-      "value": "#0060df",
+      "name": "colorRed30",
+      "value": "#ff848b",
       "meta": {
-        "friendlyName": "Blue 60"
+        "friendlyName": "Red 30"
       }
     },
     {
       "type": "color",
       "category": "background-color",
-      "name": "colorBlue70",
-      "value": "#003eaa",
+      "name": "colorRed40",
+      "value": "#ff6a75",
       "meta": {
-        "friendlyName": "Blue 70"
-      }
-    },
-    {
-      "type": "color",
-      "category": "background-color",
-      "name": "colorBlue80",
-      "value": "#002275",
-      "meta": {
-        "friendlyName": "Blue 80"
-      }
-    },
-    {
-      "type": "color",
-      "category": "background-color",
-      "name": "colorBlue90",
-      "value": "#000f40",
-      "meta": {
-        "friendlyName": "Blue 90"
-      }
-    },
-    {
-      "type": "color",
-      "category": "background-color",
-      "name": "colorTeal50",
-      "value": "#00feff",
-      "meta": {
-        "friendlyName": "Teal 50"
-      }
-    },
-    {
-      "type": "color",
-      "category": "background-color",
-      "name": "colorTeal60",
-      "value": "#00c8d7",
-      "meta": {
-        "friendlyName": "Teal 60"
-      }
-    },
-    {
-      "type": "color",
-      "category": "background-color",
-      "name": "colorTeal70",
-      "value": "#008ea4",
-      "meta": {
-        "friendlyName": "Teal 70"
-      }
-    },
-    {
-      "type": "color",
-      "category": "background-color",
-      "name": "colorTeal80",
-      "value": "#005a71",
-      "meta": {
-        "friendlyName": "Teal 80"
-      }
-    },
-    {
-      "type": "color",
-      "category": "background-color",
-      "name": "colorTeal90",
-      "value": "#002d3e",
-      "meta": {
-        "friendlyName": "Teal 90"
-      }
-    },
-    {
-      "type": "color",
-      "category": "background-color",
-      "name": "colorGreen50",
-      "value": "#30e60b",
-      "meta": {
-        "friendlyName": "Green 50"
-      }
-    },
-    {
-      "type": "color",
-      "category": "background-color",
-      "name": "colorGreen60",
-      "value": "#12bc00",
-      "meta": {
-        "friendlyName": "Green 60"
-      }
-    },
-    {
-      "type": "color",
-      "category": "background-color",
-      "name": "colorGreen70",
-      "value": "#058b00",
-      "meta": {
-        "friendlyName": "Green 70"
-      }
-    },
-    {
-      "type": "color",
-      "category": "background-color",
-      "name": "colorGreen80",
-      "value": "#006504",
-      "meta": {
-        "friendlyName": "Green 80"
-      }
-    },
-    {
-      "type": "color",
-      "category": "background-color",
-      "name": "colorGreen90",
-      "value": "#003706",
-      "meta": {
-        "friendlyName": "Green 90"
-      }
-    },
-    {
-      "type": "color",
-      "category": "background-color",
-      "name": "colorYellow50",
-      "value": "#ffe900",
-      "meta": {
-        "friendlyName": "Yellow 50"
-      }
-    },
-    {
-      "type": "color",
-      "category": "background-color",
-      "name": "colorYellow60",
-      "value": "#d7b600",
-      "meta": {
-        "friendlyName": "Yellow 60"
-      }
-    },
-    {
-      "type": "color",
-      "category": "background-color",
-      "name": "colorYellow70",
-      "value": "#a47f00",
-      "meta": {
-        "friendlyName": "Yellow 70"
-      }
-    },
-    {
-      "type": "color",
-      "category": "background-color",
-      "name": "colorYellow80",
-      "value": "#715100",
-      "meta": {
-        "friendlyName": "Yellow 80"
-      }
-    },
-    {
-      "type": "color",
-      "category": "background-color",
-      "name": "colorYellow90",
-      "value": "#3e2800",
-      "meta": {
-        "friendlyName": "Yellow 90"
+        "friendlyName": "Red 40"
       }
     },
     {
       "type": "color",
       "category": "background-color",
       "name": "colorRed50",
-      "value": "#ff0039",
+      "value": "#ff4f5e",
       "meta": {
         "friendlyName": "Red 50"
       }
@@ -409,7 +175,7 @@
       "type": "color",
       "category": "background-color",
       "name": "colorRed60",
-      "value": "#d70022",
+      "value": "#e22850",
       "meta": {
         "friendlyName": "Red 60"
       }
@@ -418,7 +184,7 @@
       "type": "color",
       "category": "background-color",
       "name": "colorRed70",
-      "value": "#a4000f",
+      "value": "#c50042",
       "meta": {
         "friendlyName": "Red 70"
       }
@@ -427,7 +193,7 @@
       "type": "color",
       "category": "background-color",
       "name": "colorRed80",
-      "value": "#5a0002",
+      "value": "#810220",
       "meta": {
         "friendlyName": "Red 80"
       }
@@ -436,7 +202,7 @@
       "type": "color",
       "category": "background-color",
       "name": "colorRed90",
-      "value": "#3e0200",
+      "value": "#440306",
       "meta": {
         "friendlyName": "Red 90"
       }
@@ -444,8 +210,53 @@
     {
       "type": "color",
       "category": "background-color",
+      "name": "colorOrange5",
+      "value": "#fff4de",
+      "meta": {
+        "friendlyName": "Orange 5"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorOrange10",
+      "value": "#ffd5b2",
+      "meta": {
+        "friendlyName": "Orange 10"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorOrange20",
+      "value": "#ffb587",
+      "meta": {
+        "friendlyName": "Orange 20"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorOrange30",
+      "value": "#ffa266",
+      "meta": {
+        "friendlyName": "Orange 30"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorOrange40",
+      "value": "#ff8a50",
+      "meta": {
+        "friendlyName": "Orange 40"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
       "name": "colorOrange50",
-      "value": "#ff9400",
+      "value": "#ff7139",
       "meta": {
         "friendlyName": "Orange 50"
       }
@@ -454,7 +265,7 @@
       "type": "color",
       "category": "background-color",
       "name": "colorOrange60",
-      "value": "#d76e00",
+      "value": "#e25920",
       "meta": {
         "friendlyName": "Orange 60"
       }
@@ -463,7 +274,7 @@
       "type": "color",
       "category": "background-color",
       "name": "colorOrange70",
-      "value": "#a44900",
+      "value": "#cc3d00",
       "meta": {
         "friendlyName": "Orange 70"
       }
@@ -472,7 +283,7 @@
       "type": "color",
       "category": "background-color",
       "name": "colorOrange80",
-      "value": "#712b00",
+      "value": "#9e280b",
       "meta": {
         "friendlyName": "Orange 80"
       }
@@ -481,9 +292,459 @@
       "type": "color",
       "category": "background-color",
       "name": "colorOrange90",
-      "value": "#3e1300",
+      "value": "#7c1504",
       "meta": {
         "friendlyName": "Orange 90"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorYellow5",
+      "value": "#ffffcc",
+      "meta": {
+        "friendlyName": "Yellow 5"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorYellow10",
+      "value": "#ffff98",
+      "meta": {
+        "friendlyName": "Yellow 10"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorYellow20",
+      "value": "#ffea80",
+      "meta": {
+        "friendlyName": "Yellow 20"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorYellow30",
+      "value": "#ffd567",
+      "meta": {
+        "friendlyName": "Yellow 30"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorYellow40",
+      "value": "#ffbd4f",
+      "meta": {
+        "friendlyName": "Yellow 40"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorYellow50",
+      "value": "#ffa436",
+      "meta": {
+        "friendlyName": "Yellow 50"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorYellow60",
+      "value": "#e27f2e",
+      "meta": {
+        "friendlyName": "Yellow 60"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorYellow70",
+      "value": "#c45a27",
+      "meta": {
+        "friendlyName": "Yellow 70"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorYellow80",
+      "value": "#a7341f",
+      "meta": {
+        "friendlyName": "Yellow 80"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorYellow90",
+      "value": "#960e18",
+      "meta": {
+        "friendlyName": "Yellow 90"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorGreen5",
+      "value": "#e3fff3",
+      "meta": {
+        "friendlyName": "Green 5"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorGreen10",
+      "value": "#d1ffee",
+      "meta": {
+        "friendlyName": "Green 10"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorGreen20",
+      "value": "#b3ffe3",
+      "meta": {
+        "friendlyName": "Green 20"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorGreen30",
+      "value": "#88ffd1",
+      "meta": {
+        "friendlyName": "Green 30"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorGreen40",
+      "value": "#54ffbd",
+      "meta": {
+        "friendlyName": "Green 40"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorGreen50",
+      "value": "#3fe1b0",
+      "meta": {
+        "friendlyName": "Green 50"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorGreen60",
+      "value": "#2ac3a2",
+      "meta": {
+        "friendlyName": "Green 60"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorGreen70",
+      "value": "#008787",
+      "meta": {
+        "friendlyName": "Green 70"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorGreen80",
+      "value": "#005e5e",
+      "meta": {
+        "friendlyName": "Green 80"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorGreen90",
+      "value": "#08403f",
+      "meta": {
+        "friendlyName": "Green 90"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorBlue5",
+      "value": "#aaf2ff",
+      "meta": {
+        "friendlyName": "Blue 5"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorBlue10",
+      "value": "#80ebff",
+      "meta": {
+        "friendlyName": "Blue 10"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorBlue20",
+      "value": "#00ddff",
+      "meta": {
+        "friendlyName": "Blue 20"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorBlue30",
+      "value": "#00b3f4",
+      "meta": {
+        "friendlyName": "Blue 30"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorBlue40",
+      "value": "#0090ed",
+      "meta": {
+        "friendlyName": "Blue 40"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorBlue50",
+      "value": "#0060df",
+      "meta": {
+        "friendlyName": "Blue 50"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorBlue60",
+      "value": "#0250bb",
+      "meta": {
+        "friendlyName": "Blue 60"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorBlue70",
+      "value": "#054096",
+      "meta": {
+        "friendlyName": "Blue 70"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorBlue80",
+      "value": "#073072",
+      "meta": {
+        "friendlyName": "Blue 80"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorBlue90",
+      "value": "#09204d",
+      "meta": {
+        "friendlyName": "Blue 90"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorViolet5",
+      "value": "#e7dfff",
+      "meta": {
+        "friendlyName": "Violet 5"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorViolet10",
+      "value": "#d9bfff",
+      "meta": {
+        "friendlyName": "Violet 10"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorViolet20",
+      "value": "#cb9eff",
+      "meta": {
+        "friendlyName": "Violet 20"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorViolet30",
+      "value": "#c689ff",
+      "meta": {
+        "friendlyName": "Violet 30"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorViolet40",
+      "value": "#ab71ff",
+      "meta": {
+        "friendlyName": "Violet 40"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorViolet50",
+      "value": "#9059ff",
+      "meta": {
+        "friendlyName": "Violet 50"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorViolet60",
+      "value": "#7542e5",
+      "meta": {
+        "friendlyName": "Violet 60"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorViolet70",
+      "value": "#592acb",
+      "meta": {
+        "friendlyName": "Violet 70"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorViolet80",
+      "value": "#45278d",
+      "meta": {
+        "friendlyName": "Violet 80"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorViolet90",
+      "value": "#321c64",
+      "meta": {
+        "friendlyName": "Violet 90"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorPurple5",
+      "value": "#f7e2ff",
+      "meta": {
+        "friendlyName": "Purple 5"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorPurple10",
+      "value": "#f6b8ff",
+      "meta": {
+        "friendlyName": "Purple 10"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorPurple20",
+      "value": "#f68fff",
+      "meta": {
+        "friendlyName": "Purple 20"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorPurple30",
+      "value": "#f770ff",
+      "meta": {
+        "friendlyName": "Purple 30"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorPurple40",
+      "value": "#d74cf0",
+      "meta": {
+        "friendlyName": "Purple 40"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorPurple50",
+      "value": "#b833e1",
+      "meta": {
+        "friendlyName": "Purple 50"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorPurple60",
+      "value": "#952bb9",
+      "meta": {
+        "friendlyName": "Purple 60"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorPurple70",
+      "value": "#722291",
+      "meta": {
+        "friendlyName": "Purple 70"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorPurple80",
+      "value": "#4e1a69",
+      "meta": {
+        "friendlyName": "Purple 80"
+      }
+    },
+    {
+      "type": "color",
+      "category": "background-color",
+      "name": "colorPurple90",
+      "value": "#2b1141",
+      "meta": {
+        "friendlyName": "Purple 90"
       }
     },
     {
@@ -508,7 +769,7 @@
       "type": "color",
       "category": "background-color",
       "name": "colorGray30",
-      "value": "#d7d7db",
+      "value": "#cdcdd4",
       "meta": {
         "friendlyName": "Gray 30"
       }
@@ -517,7 +778,7 @@
       "type": "color",
       "category": "background-color",
       "name": "colorGray40",
-      "value": "#b1b1b3",
+      "value": "#b1b1bc",
       "meta": {
         "friendlyName": "Gray 40"
       }
@@ -526,7 +787,7 @@
       "type": "color",
       "category": "background-color",
       "name": "colorGray50",
-      "value": "#737373",
+      "value": "#9595a3",
       "meta": {
         "friendlyName": "Gray 50"
       }
@@ -535,7 +796,7 @@
       "type": "color",
       "category": "background-color",
       "name": "colorGray60",
-      "value": "#4a4a4f",
+      "value": "#7a7a8b",
       "meta": {
         "friendlyName": "Gray 60"
       }
@@ -544,7 +805,7 @@
       "type": "color",
       "category": "background-color",
       "name": "colorGray70",
-      "value": "#38383d",
+      "value": "#5e5e72",
       "meta": {
         "friendlyName": "Gray 70"
       }
@@ -553,7 +814,7 @@
       "type": "color",
       "category": "background-color",
       "name": "colorGray80",
-      "value": "#2a2a2e",
+      "value": "#42425a",
       "meta": {
         "friendlyName": "Gray 80"
       }
@@ -562,7 +823,7 @@
       "type": "color",
       "category": "background-color",
       "name": "colorGray90",
-      "value": "#0c0c0d",
+      "value": "#202340",
       "meta": {
         "friendlyName": "Gray 90"
       }
@@ -580,7 +841,7 @@
       "type": "color",
       "category": "background-color",
       "name": "colorLinkHover",
-      "value": "#003eaa",
+      "value": "#0250bb",
       "meta": {
         "friendlyName": "Link:Hover"
       }
@@ -589,7 +850,7 @@
       "type": "color",
       "category": "background-color",
       "name": "colorLinkVisited",
-      "value": "#8000d7",
+      "value": "#b833e1",
       "meta": {
         "friendlyName": "Link:Visited"
       }
@@ -598,7 +859,7 @@
       "type": "color",
       "category": "background-color",
       "name": "colorLinkVisitedHover",
-      "value": "#6200a4",
+      "value": "#952bb9",
       "meta": {
         "friendlyName": "Link:Visited:Hover"
       }
