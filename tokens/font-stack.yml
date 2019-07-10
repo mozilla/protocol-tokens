@@ -4,9 +4,11 @@ global:
 imports:
   - ./_aliases.yml
 props:
-  - name: font-stack-sans
-    value: '{!font-stack-sans}'
-  - name: font-stack-serif
-    value: '{!font-stack-serif}'
+  - name: font-stack-base
+    value: '{!font-stack-base}'
+  - name: font-stack-firefox
+    value: '{!font-stack-firefox}'
+  - name: font-stack-mozilla
+    value: '{!font-stack-mozilla}'
   - name: font-stack-mono
     value: '{!font-stack-mono}'
