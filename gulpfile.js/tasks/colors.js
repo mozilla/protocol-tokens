@@ -13,16 +13,17 @@ theo.registerFormat('colors.soc', `<?xml version="1.0" encoding="UTF-8"?>
   xmlns:svg="http://www.w3.org/2000/svg"
   xmlns:ooo="http://openoffice.org/2004/office">
   {{#each props as |prop|}}
-  {{#if prop.comment}}<!-- {{{prop.comment}}} -->{{/if}}
-  <draw:color draw:name="{{prop.name}}" draw:color="{{prop.value}}" />
-  {{/each}}
+{{#startsWith prop.value 'rgba'}}{{else}}{{#if prop.comment}}  <!-- {{{prop.comment}}} -->
+{{/if}}  <draw:color draw:name="{{prop.name}}" draw:color="{{prop.value}}" />{{/startsWith}}
+{{/each}}
 </ooo:color-table>
 `);
 
 function formatGPL(result) {
-    return result.get('props').map(prop => {
-        return `${prop.get('value').replace('rgb(', '').replace(')', '')} ${prop.get('name').replace(/-/g, ' ')} \n`;
-    })
+    return result.get('props').filter(prop => !prop.get('value').startsWith('rgba'))
+        .map(prop => {
+            return `${prop.get('value').replace('rgb(', '').replace(')', '')} ${prop.get('name').replace(/-/g, ' ')} \n`;
+        })
         // convert to js for proper formatting
         .toJS()
         // convert to string to run replace function
@@ -43,6 +44,27 @@ Name: Protocol Colors
 ${formatGPL(result)}
     `.trim();
 });
+
+theo.registerValueTransform('color/ios',
+    prop => prop.get('type') === 'color',
+    prop => {
+        let value = prop.get('value').substr(1);
+        return `0x${value}`;
+    }
+);
+
+theo.registerTransform('ios', ['color/ios']);
+
+theo.registerFormat('ios', `
+import UIKit
+
+extension UIColor {
+    struct Photon {
+{{#each props as |prop|}}{{#if prop.comment}}<!-- {{{prop.comment}}} -->{{/if}}
+        static let {{pascalcase (removeFirst prop.name "color-")}} = UIColor(rgb{{#eq prop.value.length 10}}a{{/eq}}: {{prop.value}}){{/each}}
+        }
+    }
+`);
 
 // Formats with hex values
 const colorsFormats = [
@@ -84,12 +106,24 @@ function web() {
 function android() {
     return gulp.src('tokens/colors.yml')
         .pipe(gulpTheo({
+            transform: { type: 'android' },
             format: { type: 'android.xml' }
         }))
         .pipe(gulp.dest('dist/colors'));
 }
 
+// Formats with 8-digit hex values
+function ios() {
+    return gulp.src('tokens/colors.yml')
+        .pipe(gulpTheo({
+            transform: { type: 'ios' },
+            format: { type: 'ios' }
+        }))
+        .pipe(gulp.dest('dist/colors'));
+}
+
+
 // All formats
-const colors = gulp.parallel(raw, web, android);
+const colors = gulp.parallel(raw, web, android, ios);
 
 module.exports = colors;
