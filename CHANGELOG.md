@@ -1,3 +1,8 @@
+# Head
+
+* **fontstack** (breaking) Adds Inter and Metropolis to the font stacks. Adds new variables for base and brand themes, removing `font-stack-sans` and `font-stack-serif`.
+* **colors:** Update color values to latest Firefox brand guide
+
 # 3.0.0 (2019-03-25)
 
 ### Features
