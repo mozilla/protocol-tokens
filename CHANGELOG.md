@@ -1,5 +1,6 @@
 # HEAD
 
+* **colors** (breaking) Rename "grey" colors to the American spelling of "gray"
 * **colors:** Add Mozilla brand colors
 
 # 4.0.0 (2019-09-13)
