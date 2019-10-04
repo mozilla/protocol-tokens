@@ -1,3 +1,7 @@
+# HEAD
+
+* **colors:** Add Mozilla brand colors
+
 # 4.0.0 (2019-09-13)
 
 * **fontstack** (breaking) Adds Inter and Metropolis to the font stacks. Adds new variables for base and brand themes, removing `font-stack-sans` and `font-stack-serif`.

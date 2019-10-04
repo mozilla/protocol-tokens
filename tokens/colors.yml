@@ -509,7 +509,6 @@ props:
     value: '{!color-white}'
     meta:
       friendlyName: White
-  
 
   # Link Colors
 
@@ -529,3 +528,42 @@ props:
     value: '{!color-link-visited-hover}'
     meta:
       friendlyName: Link:Visited:Hover
+
+# Mozilla brand colors
+
+  - name: color-moz-neon-blue
+    value: '{!color-moz-neon-blue}'
+    meta:
+      friendlyName: Mozilla Neon Blue
+  - name: color-moz-lemon-yellow
+    value: '{!color-moz-lemon-yellow}'
+    meta:
+      friendlyName: Mozilla Lemon Yellow
+  - name: color-moz-warm-red
+    value: '{!color-moz-warm-red}'
+    meta:
+      friendlyName: Mozilla Warm Red
+  - name: color-moz-neon-green
+    value: '{!color-moz-neon-green}'
+    meta:
+      friendlyName: Mozilla Neon Green
+  - name: color-moz-dark-purple
+    value: '{!color-moz-dark-purple}'
+    meta:
+      friendlyName: Mozilla Dark Purple
+  - name: color-moz-dark-green
+    value: '{!color-moz-dark-green}'
+    meta:
+      friendlyName: Mozilla Dark Green
+  - name: color-moz-dark-blue
+    value: '{!color-moz-dark-blue}'
+    meta:
+      friendlyName: Mozilla Dark Blue
+  - name: color-moz-dark-gray
+    value: '{!color-moz-dark-gray}'
+    meta:
+      friendlyName: Mozilla Dark Gray
+  - name: color-moz-light-gray
+    value: '{!color-moz-light-gray}'
+    meta:
+      friendlyName: Mozilla Light Gray

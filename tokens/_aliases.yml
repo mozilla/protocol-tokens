@@ -138,11 +138,21 @@ aliases:
   color-white: '#ffffff'
 
   # Link Colors
-
   color-link: '{!color-blue-50}'
   color-link-hover: '{!color-blue-60}'
   color-link-visited: '{!color-purple-50}'
   color-link-visited-hover: '{!color-purple-60}'
+
+  # Mozilla brand colors
+  color-moz-neon-blue: '#00ffff'
+  color-moz-lemon-yellow: '#fff44f'
+  color-moz-warm-red: '#ff4f5e'
+  color-moz-neon-green: '#54ffbd'
+  color-moz-dark-purple: '#6e008b'
+  color-moz-dark-green: '#005e5e'
+  color-moz-dark-blue: '#00458b'
+  color-moz-dark-gray: '#959595'
+  color-moz-light-gray: '#e7e5e2'
 
   # Units
   spacing-xs: '4px'
