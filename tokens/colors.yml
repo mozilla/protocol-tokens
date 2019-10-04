@@ -333,132 +333,132 @@ props:
     meta:
       friendlyName: Yellow 90
 
-  - name: color-light-grey-05
-    value: '{!color-light-grey-05}'
+  - name: color-light-gray-05
+    value: '{!color-light-gray-05}'
     meta:
-      friendlyName: Light Grey 05
-  - name: color-light-grey-05
-    value: '{!color-light-grey-05}'
+      friendlyName: Light Gray 05
+  - name: color-light-gray-05
+    value: '{!color-light-gray-05}'
     meta:
-      friendlyName: Light Grey 05
-  - name: color-light-grey-10
-    value: '{!color-light-grey-10}'
+      friendlyName: Light Gray 05
+  - name: color-light-gray-10
+    value: '{!color-light-gray-10}'
     meta:
-      friendlyName: Light Grey 10
-  - name: color-light-grey-20
-    value: '{!color-light-grey-20}'
+      friendlyName: Light Gray 10
+  - name: color-light-gray-20
+    value: '{!color-light-gray-20}'
     meta:
-      friendlyName: Light Grey 20
-  - name: color-light-grey-30
-    value: '{!color-light-grey-30}'
+      friendlyName: Light Gray 20
+  - name: color-light-gray-30
+    value: '{!color-light-gray-30}'
     meta:
-      friendlyName: Light Grey 30
-  - name: color-light-grey-40
-    value: '{!color-light-grey-40}'
+      friendlyName: Light Gray 30
+  - name: color-light-gray-40
+    value: '{!color-light-gray-40}'
     meta:
-      friendlyName: Light Grey 40
-  - name: color-light-grey-50
-    value: '{!color-light-grey-50}'
+      friendlyName: Light Gray 40
+  - name: color-light-gray-50
+    value: '{!color-light-gray-50}'
     meta:
-      friendlyName: Light Grey 50
-  - name: color-light-grey-60
-    value: '{!color-light-grey-60}'
+      friendlyName: Light Gray 50
+  - name: color-light-gray-60
+    value: '{!color-light-gray-60}'
     meta:
-      friendlyName: Light Grey 60
-  - name: color-light-grey-70
-    value: '{!color-light-grey-70}'
+      friendlyName: Light Gray 60
+  - name: color-light-gray-70
+    value: '{!color-light-gray-70}'
     meta:
-      friendlyName: Light Grey 70
-  - name: color-light-grey-80
-    value: '{!color-light-grey-80}'
+      friendlyName: Light Gray 70
+  - name: color-light-gray-80
+    value: '{!color-light-gray-80}'
     meta:
-      friendlyName: Light Grey 80
-  - name: color-light-grey-90
-    value: '{!color-light-grey-90}'
+      friendlyName: Light Gray 80
+  - name: color-light-gray-90
+    value: '{!color-light-gray-90}'
     meta:
-      friendlyName: Light Grey 90
+      friendlyName: Light Gray 90
 
-  - name: color-dark-grey-05
-    value: '{!color-dark-grey-05}'
+  - name: color-dark-gray-05
+    value: '{!color-dark-gray-05}'
     meta:
-      friendlyName: Dark Grey 05
-  - name: color-dark-grey-10
-    value: '{!color-dark-grey-10}'
+      friendlyName: Dark Gray 05
+  - name: color-dark-gray-10
+    value: '{!color-dark-gray-10}'
     meta:
-      friendlyName: Dark Grey 10
-  - name: color-dark-grey-20
-    value: '{!color-dark-grey-20}'
+      friendlyName: Dark Gray 10
+  - name: color-dark-gray-20
+    value: '{!color-dark-gray-20}'
     meta:
-      friendlyName: Dark Grey 20
-  - name: color-dark-grey-30
-    value: '{!color-dark-grey-30}'
+      friendlyName: Dark Gray 20
+  - name: color-dark-gray-30
+    value: '{!color-dark-gray-30}'
     meta:
-      friendlyName: Dark Grey 30
-  - name: color-dark-grey-40
-    value: '{!color-dark-grey-40}'
+      friendlyName: Dark Gray 30
+  - name: color-dark-gray-40
+    value: '{!color-dark-gray-40}'
     meta:
-      friendlyName: Dark Grey 40
-  - name: color-dark-grey-50
-    value: '{!color-dark-grey-50}'
+      friendlyName: Dark Gray 40
+  - name: color-dark-gray-50
+    value: '{!color-dark-gray-50}'
     meta:
-      friendlyName: Dark Grey 50
-  - name: color-dark-grey-60
-    value: '{!color-dark-grey-60}'
+      friendlyName: Dark Gray 50
+  - name: color-dark-gray-60
+    value: '{!color-dark-gray-60}'
     meta:
-      friendlyName: Dark Grey 60
-  - name: color-dark-grey-70
-    value: '{!color-dark-grey-70}'
+      friendlyName: Dark Gray 60
+  - name: color-dark-gray-70
+    value: '{!color-dark-gray-70}'
     meta:
-      friendlyName: Dark Grey 70
-  - name: color-dark-grey-80
-    value: '{!color-dark-grey-80}'
+      friendlyName: Dark Gray 70
+  - name: color-dark-gray-80
+    value: '{!color-dark-gray-80}'
     meta:
-      friendlyName: Dark Grey 80
-  - name: color-dark-grey-90
-    value: '{!color-dark-grey-90}'
+      friendlyName: Dark Gray 80
+  - name: color-dark-gray-90
+    value: '{!color-dark-gray-90}'
     meta:
-      friendlyName: Dark Grey 90
+      friendlyName: Dark Gray 90
 
-  - name: color-marketing-grey-10
-    value: '{!color-marketing-grey-10}'
+  - name: color-marketing-gray-10
+    value: '{!color-marketing-gray-10}'
     meta:
-      friendlyName: Marketing Grey 10
-  - name: color-marketing-grey-20
-    value: '{!color-marketing-grey-20}'
+      friendlyName: Marketing Gray 10
+  - name: color-marketing-gray-20
+    value: '{!color-marketing-gray-20}'
     meta:
-      friendlyName: Marketing Grey 20
-  - name: color-marketing-grey-30
-    value: '{!color-marketing-grey-30}'
+      friendlyName: Marketing Gray 20
+  - name: color-marketing-gray-30
+    value: '{!color-marketing-gray-30}'
     meta:
-      friendlyName: Marketing Grey 30
-  - name: color-marketing-grey-40
-    value: '{!color-marketing-grey-40}'
+      friendlyName: Marketing Gray 30
+  - name: color-marketing-gray-40
+    value: '{!color-marketing-gray-40}'
     meta:
-      friendlyName: Marketing Grey 40
-  - name: color-marketing-grey-50
-    value: '{!color-marketing-grey-50}'
+      friendlyName: Marketing Gray 40
+  - name: color-marketing-gray-50
+    value: '{!color-marketing-gray-50}'
     meta:
-      friendlyName: Marketing Grey 50
-  - name: color-marketing-grey-60
-    value: '{!color-marketing-grey-60}'
+      friendlyName: Marketing Gray 50
+  - name: color-marketing-gray-60
+    value: '{!color-marketing-gray-60}'
     meta:
-      friendlyName: Marketing Grey 60
-  - name: color-marketing-grey-70
-    value: '{!color-marketing-grey-70}'
+      friendlyName: Marketing Gray 60
+  - name: color-marketing-gray-70
+    value: '{!color-marketing-gray-70}'
     meta:
-      friendlyName: Marketing Grey 70
-  - name: color-marketing-grey-80
-    value: '{!color-marketing-grey-80}'
+      friendlyName: Marketing Gray 70
+  - name: color-marketing-gray-80
+    value: '{!color-marketing-gray-80}'
     meta:
-      friendlyName: Marketing Grey 80
-  - name: color-marketing-grey-90
-    value: '{!color-marketing-grey-90}'
+      friendlyName: Marketing Gray 80
+  - name: color-marketing-gray-90
+    value: '{!color-marketing-gray-90}'
     meta:
-      friendlyName: Marketing Grey 90
-  - name: color-marketing-grey-99
-    value: '{!color-marketing-grey-99}'
+      friendlyName: Marketing Gray 90
+  - name: color-marketing-gray-99
+    value: '{!color-marketing-gray-99}'
     meta:
-      friendlyName: Marketing Grey 99
+      friendlyName: Marketing Gray 99
 
   - name: color-ink-05
     value: '{!color-ink-05}'
@@ -509,6 +509,7 @@ props:
     value: '{!color-white}'
     meta:
       friendlyName: White
+  
 
   # Link Colors
 
