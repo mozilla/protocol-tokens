@@ -5,3 +5,4 @@ imports:
   - ./font-stack.yml
   - ./gradients.yml
   - ./units.yml
+  - ./border-radius.yml

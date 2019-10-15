@@ -1,7 +1,12 @@
 aliases:
 
-  # Colors
+  # Borders
+  border-radius-xs: '2px'
+  border-radius-sm: '4px'
+  border-radius-md: '8px'
+  border-radius-lg: '16px'
 
+  # Colors
   color-green-05: '#e3fff3'
   color-green-10: '#d1ffee'
   color-green-20: '#b3ffe3'
