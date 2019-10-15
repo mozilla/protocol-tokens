@@ -27,4 +27,3 @@ props:
       type: 'linear'
       angle: '90deg'
       value: '#FFFFFF, #FFF44F'
-  

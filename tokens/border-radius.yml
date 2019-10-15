@@ -1,0 +1,16 @@
+global:
+  type: web
+  category: border-radius
+imports:
+  - ./_aliases.yml
+props:
+
+  - name: 'border-radius-xs'
+    value: '{!border-radius-xs}'
+  - name: 'border-radius-sm'
+    value: '{!border-radius-sm}'
+  - name: 'border-radius-md'
+    value: '{!border-radius-md}'
+  - name: 'border-radius-lg'
+    value: '{!border-radius-lg}'
+
