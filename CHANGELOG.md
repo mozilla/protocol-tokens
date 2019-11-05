@@ -1,5 +1,6 @@
 # HEAD
 
+* **shadows** Add tokens for box shadows
 * **borders** Add tokens for border radii
 * **colors** (breaking) Rename "grey" colors to the American spelling of "gray"
 * **colors:** Add Mozilla brand colors

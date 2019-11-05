@@ -1,0 +1,14 @@
+global:
+  type: web
+  category: box-shadow
+imports:
+  - ./_aliases.yml
+props:
+
+  - name: 'box-shadow-sm'
+    value: '{!box-shadow-sm}'
+  - name: 'box-shadow-md'
+    value: '{!box-shadow-md}'
+  - name: 'box-shadow-lg'
+    value: '{!box-shadow-lg}'
+
