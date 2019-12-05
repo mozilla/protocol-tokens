@@ -1,8 +1,9 @@
 imports:
-  - ./media-queries.yml
-  - ./content.yml
+  - ./border-radius.yml
+  - ./box-shadow.yml
   - ./colors.yml
+  - ./content.yml
   - ./font-stack.yml
   - ./gradients.yml
+  - ./media-queries.yml
   - ./units.yml
-  - ./border-radius.yml
