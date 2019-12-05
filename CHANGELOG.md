@@ -1,13 +1,13 @@
-# HEAD
+# 5.0.0 (2019-12-05)
 
-* **shadows** Add tokens for box shadows
-* **borders** Add tokens for border radii
-* **colors** (breaking) Rename "grey" colors to the American spelling of "gray"
+* **shadows:** Add tokens for box shadows
+* **borders:** Add tokens for border radii
+* **colors:** (breaking) Rename "grey" colors to the American spelling of "gray"
 * **colors:** Add Mozilla brand colors
 
 # 4.0.0 (2019-09-13)
 
-* **fontstack** (breaking) Adds Inter and Metropolis to the font stacks. Adds new variables for base and brand themes, removing `font-stack-sans` and `font-stack-serif`.
+* **fontstack:** (breaking) Adds Inter and Metropolis to the font stacks. Adds new variables for base and brand themes, removing `font-stack-sans` and `font-stack-serif`.
 * **colors:** Update color values to latest Firefox brand guide
 
 # 3.0.0 (2019-03-25)
