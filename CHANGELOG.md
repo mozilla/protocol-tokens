@@ -1,3 +1,9 @@
+# 5.0.1 (2019-12-06)
+
+### Bug Fixes
+
+* **package:** update dist folder, erroneously published with outdated contents
+
 # 5.0.0 (2019-12-05)
 
 * **shadows:** Add tokens for box shadows

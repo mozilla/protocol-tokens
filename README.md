@@ -18,7 +18,7 @@ Design tokens for Protocol, Mozilla’s design system.
 </tr>
 <tr>
 <td>Version</td>
-<td><a href="https://github.com/mozilla/protocol-tokens/blob/master/CHANGELOG.md">5.0.0</a></td>
+<td><a href="https://github.com/mozilla/protocol-tokens/blob/master/CHANGELOG.md">5.0.1</a></td>
 </tr>
 </table>
 
@@ -83,6 +83,13 @@ a {
   color: var(--color-black);
 }
 ```
+
+## Publishing
+
+To publish to the npmjs registry you'll need access to the mozilla-protocol org on npmjs.com.
+First run `gulp` to compile the package locally. You can check your local `dist`
+folder to verify it has the up-to-date tokens. Then run `npm publish`.
+
 
 ## Contributing
 
