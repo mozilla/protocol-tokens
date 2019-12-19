@@ -1,3 +1,7 @@
+# HEAD
+
+* **media queries:** Update $screen-lg and media queries
+
 # 5.0.1 (2019-12-06)
 
 ### Bug Fixes
