@@ -7,6 +7,7 @@ aliases:
   border-radius-lg: '16px'
 
   # Shadows
+  # Shadow colors are equivalent to $color-ink-90, $color-blue-90, $color-ink-90
   box-shadow-sm: '0 8px 12px 1px rgba(29, 17, 51, .04), 0 3px 16px 2px rgba(9, 32, 77, .12), 0 5px 10px -3px rgba(29, 17, 51, .12)'
   box-shadow-md: '0 16px 24px 2px rgba(29, 17, 51, .04), 0 6px 32px 4px rgba(9, 32, 77, .12), 0 8px 12px -5px rgba(29, 17, 51, .12)'
   box-shadow-lg: '0 24px 38px 3px rgba(29, 17, 51, .04), 0 10px 48px 8px rgba(9, 32, 77, .12), 0 12px 16px -6px rgba(29, 17, 51, .12)'
@@ -191,17 +192,17 @@ aliases:
   screen-xs: '320px' # content-xs + 16px
   screen-sm: '480px' # content-sm + 16px
   screen-md: '768px' # content-md + 32px
-  screen-lg: '1056px' # content-lg + 64px
+  screen-lg: '1024px' # content-lg + 32px
   screen-xl: '1312px' # content-xl + 64px
 
   # Media Queries
-  mq-xs: 'screen and (min-width: {!screen-xs})'
-  mq-sm: 'screen and (min-width: {!screen-sm})'
-  mq-md: 'screen and (min-width: {!screen-md})'
-  mq-lg: 'screen and (min-width: {!screen-lg})'
-  mq-xl: 'screen and (min-width: {!screen-xl})'
+  mq-xs: '(min-width: {!screen-xs})'
+  mq-sm: '(min-width: {!screen-sm})'
+  mq-md: '(min-width: {!screen-md})'
+  mq-lg: '(min-width: {!screen-lg})'
+  mq-xl: '(min-width: {!screen-xl})'
 
-  mq-short: '(max-height: 600px)'
+  mq-short: '(max-height: 599px)'
   mq-tall: '(min-height: 600px)'
 
   mq-high-res: 'only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi)'
