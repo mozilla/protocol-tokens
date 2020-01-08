@@ -1,4 +1,4 @@
-# HEAD
+# 5.0.2 (2020-01-08)
 
 * **media queries:** Update $screen-lg and media queries
 
