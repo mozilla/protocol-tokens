@@ -1,3 +1,10 @@
+# 5.0.3 (2020-02-11)
+
+### Bug Fixes
+
+* **colors:** Remove repeated definition of color-light-gray-05
+
+
 # 5.0.2 (2020-01-08)
 
 * **media queries:** Update $screen-lg and media queries

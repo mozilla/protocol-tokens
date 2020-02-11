@@ -337,10 +337,6 @@ props:
     value: '{!color-light-gray-05}'
     meta:
       friendlyName: Light Gray 05
-  - name: color-light-gray-05
-    value: '{!color-light-gray-05}'
-    meta:
-      friendlyName: Light Gray 05
   - name: color-light-gray-10
     value: '{!color-light-gray-10}'
     meta:
@@ -509,7 +505,7 @@ props:
     value: '{!color-white}'
     meta:
       friendlyName: White
-  
+
 
   # Link Colors
 
