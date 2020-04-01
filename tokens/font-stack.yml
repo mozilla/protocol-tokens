@@ -1,5 +1,5 @@
 global:
-  type: string
+  type: font-family
   category: font-family
 imports:
   - ./_aliases.yml
