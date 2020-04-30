@@ -1,6 +1,6 @@
 {
   "name": "@mozilla-protocol/tokens",
-  "version": "5.0.3",
+  "version": "5.0.4",
   "description": "Design tokens for Protocol, Mozilla’s design system",
   "main": "dist/index.js",
   "style": "dist/index.scss",
