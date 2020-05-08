@@ -183,17 +183,17 @@ aliases:
 
   # Content
   content-xs: '304px'
-  content-sm: '464px'
-  content-md: '736px'
-  content-lg: '992px'
-  content-xl: '1248px'
-  content-max: '1420px'
+  content-sm: '432px'
+  content-md: '688px'
+  content-lg: '928px'
+  content-xl: '1152px'
+  content-max: '1440px'
 
   screen-xs: '320px' # content-xs + 16px
-  screen-sm: '480px' # content-sm + 16px
-  screen-md: '768px' # content-md + 32px
-  screen-lg: '1024px' # content-lg + 32px
-  screen-xl: '1312px' # content-xl + 64px
+  screen-sm: '480px' # content-sm + 48px
+  screen-md: '768px' # content-md + 80px
+  screen-lg: '1024px' # content-lg + 128px
+  screen-xl: '1312px' # content-xl + 128px
 
   # Media Queries
   mq-xs: '(min-width: {!screen-xs})'
