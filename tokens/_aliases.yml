@@ -179,7 +179,7 @@ aliases:
   layout-md: '48px'
   layout-lg: '64px'
   layout-xl: '96px'
-  layout-2xl: '160px'
+  layout-2xl: '192px'
 
   # Content
   content-xs: '304px'
