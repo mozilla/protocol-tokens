@@ -1,7 +1,13 @@
+# HEAD
+
+## Features
+
+* Migrate CI to GitHub actions
+
 # 5.0.5 (2020-05-11)
 
 * **units:** Increase value of $layout-2xl unit (#82)
-* **content**: Update content sizes (#73)
+* **content:**: Update content sizes (#73)
 
 # 5.0.4 (2020-04-29)
 
