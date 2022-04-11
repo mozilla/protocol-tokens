@@ -29,14 +29,14 @@
   "homepage": "https://github.com/mozilla/protocol-tokens#readme",
   "devDependencies": {
     "@mozilla-protocol/eslint-config": "^1.1.0",
-    "del": "^3.0.0",
-    "eslint": "^5.13.0",
-    "gulp": "^4.0.0",
-    "gulp-rename": "^1.4.0",
-    "gulp-theo": "^2.0.0",
-    "merge-stream": "^1.0.1",
+    "del": "^6.0.0",
+    "eslint": "^8.0.1",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-theo": "^2.0.1",
+    "merge-stream": "^2.0.0",
     "require-dir": "^1.2.0",
-    "stylelint": "^9.10.1",
-    "theo": "^8.1.1"
+    "stylelint": "^13.13.1",
+    "theo": "^8.1.5"
   }
 }
