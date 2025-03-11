@@ -3,6 +3,7 @@
 ## Features
 
 * Migrate CI to GitHub actions
+* **fontstack:** (breaking) Adds Mozilla Headline and Mozilla Text to the font stacks. Removes `font-stack-mozilla`.
 
 # 5.0.5 (2020-05-11)
 
