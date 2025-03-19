@@ -201,6 +201,7 @@ aliases:
   mq-md: '(min-width: {!screen-md})'
   mq-lg: '(min-width: {!screen-lg})'
   mq-xl: '(min-width: {!screen-xl})'
+  mq-max: '(min-width: {!content-max})'
 
   mq-short: '(max-height: 599px)'
   mq-tall: '(min-height: 600px)'
