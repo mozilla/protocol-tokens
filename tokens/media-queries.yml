@@ -15,6 +15,8 @@ props:
     value: '{!mq-lg}'
   - name: 'mq-xl'
     value: '{!mq-xl}'
+  - name: 'mq-max'
+    value: '{!mq-max}'
   - name: 'mq-short'
     value: '{!mq-short}'
   - name: 'mq-tall'

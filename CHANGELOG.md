@@ -4,6 +4,7 @@
 
 * Migrate CI to GitHub actions
 * **fontstack:** (breaking) Adds Mozilla Headline and Mozilla Text to the font stacks. Removes `font-stack-mozilla`. Also, removes Inter from Mozilla font stack. It's no longer used as body text (as it is in Firefox), so there's no reason to add another web font in front of the system fallback fonts.
+* **media queries:** Add support for mq-max (matches when viewport is wider than maximum content width - currently 1440:)
 
 # 5.0.5 (2020-05-11)
 
