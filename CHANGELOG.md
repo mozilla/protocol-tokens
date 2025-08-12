@@ -1,3 +1,15 @@
+# 7.0.0 (2025-09-25)
+
+## Features
+
+- Update Mozilla colour tokens to match new brand pallette
+- Remove Inter from fallback list for Headings (Fix #104)
+- Remove token for color-link-visited-hover
+
+## Migration Tips
+
+- Replace uses of color-link-visited-hover with color-link-visited
+
 # 6.0.0 (2025-03-24)
 
 ## Features

@@ -18,7 +18,7 @@ Design tokens for Protocol, Mozilla’s design system.
 </tr>
 <tr>
 <td>Version</td>
-<td><a href="https://github.com/mozilla/protocol-tokens/blob/master/CHANGELOG.md">6.0.0</a></td>
+<td><a href="https://github.com/mozilla/protocol-tokens/blob/master/CHANGELOG.md">7.0.0</a></td>
 </tr>
 </table>
 
