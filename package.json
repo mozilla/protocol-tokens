@@ -1,42 +1,45 @@
 {
-  "name": "@mozilla-protocol/tokens",
-  "version": "6.0.0",
-  "description": "Design tokens for Protocol, Mozilla’s design system",
-  "main": "dist/index.js",
-  "style": "dist/index.scss",
-  "scripts": {
-    "lint-js": "./node_modules/.bin/eslint .",
-    "lint-css": "./node_modules/.bin/stylelint '**/*.css' '**/*.scss'",
-    "pretest": "npm run lint-css && npm run lint-js",
-    "test": "gulp"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mozilla/protocol-tokens.git"
-  },
-  "keywords": [
-    "design",
-    "system",
-    "tokens",
-    "colors",
-    "variables"
-  ],
-  "author": "Mozilla",
-  "license": "MPL-2.0",
-  "bugs": {
-    "url": "https://github.com/mozilla/protocol-tokens/issues"
-  },
-  "homepage": "https://github.com/mozilla/protocol-tokens#readme",
-  "devDependencies": {
-    "@mozilla-protocol/eslint-config": "^1.1.0",
-    "del": "^3.0.0",
-    "eslint": "^5.13.0",
-    "gulp": "^4.0.0",
-    "gulp-rename": "^1.4.0",
-    "gulp-theo": "^2.0.0",
-    "merge-stream": "^1.0.1",
-    "require-dir": "^1.2.0",
-    "stylelint": "^9.10.1",
-    "theo": "^8.1.1"
-  }
+    "name": "@mozilla-protocol/tokens",
+    "version": "6.0.0",
+    "description": "Design tokens for Protocol, Mozilla’s design system",
+    "main": "dist/index.js",
+    "style": "dist/index.scss",
+    "scripts": {
+        "lint": "./node_modules/.bin/eslint .",
+        "format": "prettier --write '**/*.{css,scss,js,json,md}'",
+        "format-check": "prettier --check '**/*.{css,scss,js,json,md}'",
+        "build": "npm run format-check && npm run lint && npx gulp"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mozilla/protocol-tokens.git"
+    },
+    "keywords": [
+        "design",
+        "system",
+        "tokens",
+        "colors",
+        "variables"
+    ],
+    "author": "Mozilla",
+    "license": "MPL-2.0",
+    "bugs": {
+        "url": "https://github.com/mozilla/protocol-tokens/issues"
+    },
+    "homepage": "https://github.com/mozilla/protocol-tokens#readme",
+    "devDependencies": {
+        "@eslint/eslintrc": "^3.3.1",
+        "@mozilla-protocol/eslint-config": "^1.1.0",
+        "eslint": "^9.33.0",
+        "gulp": "^5.0.1",
+        "gulp-cli": "^3.1.0",
+        "gulp-rename": "^2.1.0",
+        "gulp-theo": "^2.0.1",
+        "merge-stream": "^2.0.0",
+        "plugin-error": "^2.0.1",
+        "prettier": "^3.6.2",
+        "require-dir": "^1.2.0",
+        "stylelint": "^16.23.1",
+        "theo": "^8.1.5"
+    }
 }

@@ -2,7 +2,7 @@
 
 const gulp = require('gulp');
 const theo = require('theo');
-const del = require('del');
+const fs = require('fs');
 const index = require('./index');
 const mediaQueries = require('./media-queries');
 const content = require('./content');
@@ -28,9 +28,10 @@ theo.registerFormat('json', `[
 `);
 
 function clean(cb) {
-    del('./dist').then(() => {
-        cb();
-    });
+    if (fs.existsSync('./dist')) {
+        fs.rmSync('./dist', { recursive: true, force: true });
+    }
+    cb();
 }
 
 const build = gulp.series(

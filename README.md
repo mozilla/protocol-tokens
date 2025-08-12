@@ -84,10 +84,26 @@ a {
 }
 ```
 
+## Development
+
+### Building
+
+To compile the design tokens, run:
+
+```
+npm run build
+```
+
+This will format, lint, and build all tokens. You can also run individual commands:
+
+- `npm run format` - Format code with Prettier
+- `npm run lint` - Lint CSS/SCSS and JavaScript files
+- `npx gulp` - Build tokens only (without formatting/linting)
+
 ## Publishing
 
 To publish to the npmjs registry you'll need access to the mozilla-protocol org on npmjs.com.
-First run `gulp` to compile the package locally. You can check your local `dist`
+First run `npm run build` to compile the package locally. You can check your local `dist`
 folder to verify it has the up-to-date tokens. Then run `npm publish`.
 
 
