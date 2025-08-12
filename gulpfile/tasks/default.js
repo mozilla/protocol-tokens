@@ -1,5 +1,3 @@
-'use strict';
-
 const gulp = require('gulp');
 const theo = require('theo');
 const fs = require('fs');
@@ -12,7 +10,9 @@ const fontStack = require('./font-stack');
 const units = require('./units');
 
 // Universal Formats
-theo.registerFormat('json', `[
+theo.registerFormat(
+    'json',
+    `[
  {{~#each props as |prop|}}
  {{~#if prop.comment}}// {{{prop.comment}}}{{/if}}
   {
@@ -25,7 +25,8 @@ theo.registerFormat('json', `[
     "token": "\${{prop.name}}"
   }{{#unless @last}},{{/unless}}{{/each}}
 ]
-`);
+`
+);
 
 function clean(cb) {
     if (fs.existsSync('./dist')) {
@@ -36,7 +37,15 @@ function clean(cb) {
 
 const build = gulp.series(
     clean,
-    gulp.parallel(index, mediaQueries, content, colors, gradients, fontStack, units),
+    gulp.parallel(
+        index,
+        mediaQueries,
+        content,
+        colors,
+        gradients,
+        fontStack,
+        units
+    )
 );
 
 gulp.task('default', build);

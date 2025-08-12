@@ -67,7 +67,7 @@ Sass variables and map keys are formatted in [kebab-case](http://wiki.c2.com/?Ke
 @import '~@mozilla-protocol/tokens/dist/index';
 
 a {
-  color: $color-black;
+    color: $color-black;
 }
 ```
 
@@ -80,7 +80,7 @@ Custom properties are formatted in [kebab-case](http://wiki.c2.com/?KebabCase).
 @import '~@mozilla-protocol/tokens/dist/colors/colors.custom-properties';
 
 a {
-  color: var(--color-black);
+    color: var(--color-black);
 }
 ```
 
@@ -105,7 +105,6 @@ This will format, lint, and build all tokens. You can also run individual comman
 To publish to the npmjs registry you'll need access to the mozilla-protocol org on npmjs.com.
 First run `npm run build` to compile the package locally. You can check your local `dist`
 folder to verify it has the up-to-date tokens. Then run `npm publish`.
-
 
 ## Contributing
 

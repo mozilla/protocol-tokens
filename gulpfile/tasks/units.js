@@ -1,5 +1,3 @@
-'use strict';
-
 const gulp = require('gulp');
 const gulpTheo = require('gulp-theo');
 const merge = require('merge-stream');
@@ -17,12 +15,17 @@ function units() {
     let tasks = [];
 
     unitsFormats.map((format) => {
-        tasks.push(gulp.src('tokens/units.yml')
-            .pipe(gulpTheo({
-                transform: { includeMeta: true },
-                format: { type: format }
-            }))
-            .pipe(gulp.dest('dist/units')));
+        tasks.push(
+            gulp
+                .src('tokens/units.yml')
+                .pipe(
+                    gulpTheo({
+                        transform: { includeMeta: true },
+                        format: { type: format }
+                    })
+                )
+                .pipe(gulp.dest('dist/units'))
+        );
     });
 
     return merge(tasks);
