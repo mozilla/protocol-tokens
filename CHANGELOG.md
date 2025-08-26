@@ -8,6 +8,7 @@
 
 ## Migration Tips
 
+- Mozilla colour tokens changes are extensive
 - Replace uses of color-link-visited-hover with color-link-visited
 
 # 6.0.0 (2025-03-24)
