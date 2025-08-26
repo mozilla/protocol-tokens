@@ -4,7 +4,7 @@
 
 - **colors:** (breaking) Update Mozilla color tokens to match new brand palette
 - **fontstack:** Remove Inter from fallback list for Headings (Fix #104)
-- Remove token for color-link-visited-hover
+- **colors:** (breaking) Remove token for color-link-visited-hover
 
 ## Migration Tips
 
