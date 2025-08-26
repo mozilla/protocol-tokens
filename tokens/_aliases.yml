@@ -152,18 +152,40 @@ aliases:
   color-link: '{!color-blue-50}'
   color-link-hover: '{!color-blue-60}'
   color-link-visited: '{!color-purple-50}'
-  color-link-visited-hover: '{!color-purple-60}'
 
   # Mozilla brand colors
-  color-moz-neon-blue: '#00ffff'
-  color-moz-lemon-yellow: '#fff44f'
-  color-moz-warm-red: '#ff4f5e'
-  color-moz-neon-green: '#54ffbd'
-  color-moz-dark-purple: '#6e008b'
-  color-moz-dark-green: '#005e5e'
-  color-moz-dark-blue: '#00458b'
-  color-moz-dark-gray: '#959595'
-  color-moz-light-gray: '#e7e5e2'
+  color-moz-black: '#161616'
+  color-moz-black-strong: '#000000'
+  color-moz-white: '#fafafa'
+  color-moz-white-strong: '#ffffff'
+  color-moz-green: '#00d230'
+  color-moz-green-light: '#d6ffcd'
+  color-moz-green-mid: '#28733f'
+  color-moz-green-dark: '#022611'
+  color-moz-orange: '#ff9456'
+  color-moz-orange-light: '#faf0e6'
+  color-moz-orange-mid: '#ff453f'
+  color-moz-orange-dark: '#330505'
+  color-moz-pink: '#ff97e2'
+  color-moz-pink-light: '#fff1f8'
+  color-moz-pink-mid: '#ae49ec'
+  color-moz-pink-dark: '#210340'
+  color-moz-gray: '#B3B3B3'
+  color-moz-gray-light: '#e8e8e8'
+  color-moz-gray-mid: '#6d6d6d'
+  color-moz-gray-dark: '#414141'
+  color-moz-aqua : '#87e3cd'
+  color-moz-aqua-light : '#cef5eb'
+  color-moz-aqua-mid : '#41bfae'
+  color-moz-aqua-dark : '#0a5656'
+  color-moz-seed : '#ddef30'
+  color-moz-seed-light : '#eef797'
+  color-moz-seed-mid : '#a99c23'
+  color-moz-seed-dark : '#423412'
+  color-moz-clay : '#dadeb2'
+  color-moz-clay-light : '#eaecd0'
+  color-moz-clay-mid : '#b2b895'
+  color-moz-clay-dark : '#697961'
 
   # Units
   spacing-xs: '4px'
@@ -210,7 +232,7 @@ aliases:
 
   # Font Stack
   font-stack-base: "Inter, X-LocaleSpecific, sans-serif"
-  font-stack-firefox: "Metropolis, Inter, X-LocaleSpecific, sans-serif"
+  font-stack-firefox: "Metropolis, X-LocaleSpecific, sans-serif"
   font-stack-mono: "Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace"
   font-stack-mozilla-text: "'Mozilla Text', 'Helvetica Neue', Arial, X-LocaleSpecific, sans-serif"
   font-stack-mozilla-headline: "'Mozilla Headline', 'Helvetica Neue', Arial, X-LocaleSpecific, sans-serif"

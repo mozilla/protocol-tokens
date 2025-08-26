@@ -521,46 +521,135 @@ props:
     value: '{!color-link-visited}'
     meta:
       friendlyName: Link:Visited
-  - name: color-link-visited-hover
-    value: '{!color-link-visited-hover}'
-    meta:
-      friendlyName: Link:Visited:Hover
+
 
 # Mozilla brand colors
 
-  - name: color-moz-neon-blue
-    value: '{!color-moz-neon-blue}'
+  - name: color-moz-black
+    value: '{!color-moz-black}'
     meta:
-      friendlyName: Mozilla Neon Blue
-  - name: color-moz-lemon-yellow
-    value: '{!color-moz-lemon-yellow}'
+      friendlyName: Mozilla Black
+  - name: color-moz-black-strong
+    value: '{!color-moz-black-strong}'
     meta:
-      friendlyName: Mozilla Lemon Yellow
-  - name: color-moz-warm-red
-    value: '{!color-moz-warm-red}'
+      friendlyName: Mozilla Black Strong
+  - name: color-moz-white
+    value: '{!color-moz-white}'
     meta:
-      friendlyName: Mozilla Warm Red
-  - name: color-moz-neon-green
-    value: '{!color-moz-neon-green}'
+      friendlyName: Mozilla White
+  - name: color-moz-white-strong
+    value: '{!color-moz-white-strong}'
     meta:
-      friendlyName: Mozilla Neon Green
-  - name: color-moz-dark-purple
-    value: '{!color-moz-dark-purple}'
+      friendlyName: Mozilla White Strong
+  - name: color-moz-green
+    value: '{!color-moz-green}'
     meta:
-      friendlyName: Mozilla Dark Purple
-  - name: color-moz-dark-green
-    value: '{!color-moz-dark-green}'
+      friendlyName: Mozilla Green
+  - name: color-moz-green-light
+    value: '{!color-moz-green-light}'
     meta:
-      friendlyName: Mozilla Dark Green
-  - name: color-moz-dark-blue
-    value: '{!color-moz-dark-blue}'
+      friendlyName: Mozilla Green +1
+  - name: color-moz-green-mid
+    value: '{!color-moz-green-mid}'
     meta:
-      friendlyName: Mozilla Dark Blue
-  - name: color-moz-dark-gray
-    value: '{!color-moz-dark-gray}'
+      friendlyName: Mozilla Green -1
+  - name: color-moz-green-dark
+    value: '{!color-moz-green-dark}'
     meta:
-      friendlyName: Mozilla Dark Gray
-  - name: color-moz-light-gray
-    value: '{!color-moz-light-gray}'
+      friendlyName: Mozilla Green -2
+  - name: color-moz-orange
+    value: '{!color-moz-orange}'
     meta:
-      friendlyName: Mozilla Light Gray
+      friendlyName: Mozilla Orange
+  - name: color-moz-orange-light
+    value: '{!color-moz-orange-light}'
+    meta:
+      friendlyName: Mozilla Orange +1
+  - name: color-moz-orange-mid
+    value: '{!color-moz-orange-mid}'
+    meta:
+      friendlyName: Mozilla Orange -1
+  - name: color-moz-orange-dark
+    value: '{!color-moz-orange-dark}'
+    meta:
+      friendlyName: Mozilla Orange -2
+  - name: color-moz-pink
+    value: '{!color-moz-pink}'
+    meta:
+      friendlyName: Mozilla Pink
+  - name: color-moz-pink-light
+    value: '{!color-moz-pink-light}'
+    meta:
+      friendlyName: Mozilla Pink +1
+  - name: color-moz-pink-mid
+    value: '{!color-moz-pink-mid}'
+    meta:
+      friendlyName: Mozilla Pink -1
+  - name: color-moz-pink-dark
+    value: '{!color-moz-pink-dark}'
+    meta:
+      friendlyName: Mozilla Pink -2
+  - name: color-moz-gray
+    value: '{!color-moz-gray}'
+    meta:
+      friendlyName: Mozilla Gray
+  - name: color-moz-gray-light
+    value: '{!color-moz-gray-light}'
+    meta:
+      friendlyName: Mozilla Gray +1
+  - name: color-moz-gray-mid
+    value: '{!color-moz-gray-mid}'
+    meta:
+      friendlyName: Mozilla Gray -1
+  - name: color-moz-gray-dark
+    value: '{!color-moz-gray-dark}'
+    meta:
+      friendlyName: Mozilla Gray -2
+  - name: color-moz-aqua
+    value: '{!color-moz-aqua}'
+    meta:
+      friendlyName: Mozilla Aqua
+  - name: color-moz-aqua-light
+    value: '{!color-moz-aqua-light}'
+    meta:
+      friendlyName: Mozilla Aqua +1
+  - name: color-moz-aqua-mid
+    value: '{!color-moz-aqua-mid}'
+    meta:
+      friendlyName: Mozilla Aqua -1
+  - name: color-moz-aqua-dark
+    value: '{!color-moz-aqua-dark}'
+    meta:
+      friendlyName: Mozilla Aqua -2
+  - name: color-moz-seed
+    value: '{!color-moz-seed}'
+    meta:
+      friendlyName: Mozilla Seed
+  - name: color-moz-seed-light
+    value: '{!color-moz-seed-light}'
+    meta:
+      friendlyName: Mozilla Seed +1
+  - name: color-moz-seed-mid
+    value: '{!color-moz-seed-mid}'
+    meta:
+      friendlyName: Mozilla Seed -1
+  - name: color-moz-seed-dark
+    value: '{!color-moz-seed-dark}'
+    meta:
+      friendlyName: Mozilla Seed -2
+  - name: color-moz-clay
+    value: '{!color-moz-clay}'
+    meta:
+      friendlyName: Mozilla Clay
+  - name: color-moz-clay-light
+    value: '{!color-moz-clay-light}'
+    meta:
+      friendlyName: Mozilla Clay +1
+  - name: color-moz-clay-mid
+    value: '{!color-moz-clay-mid}'
+    meta:
+      friendlyName: Mozilla Clay -1
+  - name: color-moz-clay-dark
+    value: '{!color-moz-clay-dark}'
+    meta:
+      friendlyName: Mozilla Clay -2
