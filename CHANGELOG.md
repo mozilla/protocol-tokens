@@ -2,7 +2,7 @@
 
 ## Features
 
-- Update Mozilla colour tokens to match new brand pallette
+- **colors:** (breaking) Update Mozilla color tokens to match new brand palette
 - Remove Inter from fallback list for Headings (Fix #104)
 - Remove token for color-link-visited-hover
 
