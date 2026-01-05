@@ -11,6 +11,10 @@
 - Mozilla colour tokens changes are extensive
 - Replace uses of color-link-visited-hover with color-link-visited
 
+## Bug Fixes
+
+- Dependence vulnerabilitiy fixes
+
 # 6.0.0 (2025-03-24)
 
 ## Features
